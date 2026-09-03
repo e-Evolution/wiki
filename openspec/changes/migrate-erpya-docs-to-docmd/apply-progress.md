@@ -120,6 +120,15 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU1.5 | Pilot AI verification (llms + MCP) | WU1.2, WU1.3 |
+## WU1.5 pilot AI verification — COMPLETO. PR #14.
+- llms endpoints: llms.txt (238KB) / llms.json (430KB, 2,051 pages) / llms-full.txt (5.4MB) en la raíz del sitio; URLs absolutas canónicas https://e-evolution.github.io/wiki/…; 13 páginas piloto muestreadas presentes.
+- Opt-out demo: `llms: false` en login-2fa → ausente de llms.txt/json (2,050 pages), sibling presente; **revertido** (exclusión = decisión editorial del owner).
+- MCP smoke: 6/6 tools (search_docs, list_docs, read_doc, get_config, validate_docs, get_llms_context) vía stdio JSON-RPC 0.9.4; calls en vivo get_config + search_docs("authenticator" → login-2fa.md:11).
+- **PHASE 1 COMPLETA (WU1.1–WU1.5, PR #10–#14)**: OQ1=ADOPT dotted ids, OQ2=GO (20.4s), defecto switcher fixado. Report: `evidence/wu1.5-ai-report.md`.
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
 | WU2.1–WU2.7 | Phase 2 rollout (business-partner.md gate FIRST, module slices, final census) | WU1.5 |
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |
