@@ -83,10 +83,13 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 - Incidente documentado: rmtree erróneo en el script de reubicación borró el destino recién movido; recuperado sin pérdidas vía `git restore --worktree` (archivos intactos en index).
 - Report: `evidence/wu0.8a-r13-fix-report.md`. **PHASE 0 COMPLETA (WU0.1–WU0.8 + WU0.8a, PR #1–#9).**
 
+## WU1.1 measurements record — COMPLETO. PR #10.
+- `measurements.md` creado con los 2 decision slots: OQ1 (dotted-ids: config del experimento design §6, evidencia build/URL/switcher, adopt-or-fallback) y OQ2 (benchmark: runner C7, pilot commit, tiempo, budget 20 min, go/adjust + ladder de mitigación C7). Slots pendientes de WU1.3/WU1.4.
+
 ## Pending work units (DAG order)
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU1.1–WU1.5 | Phase 1 pilot (measurements, pilot slice, OQ1/OQ2 experiments, AI verification) | WU0.8 |
+| WU1.2 | Pilot verification slice (14 páginas) | WU1.1 |
 | WU2.1–WU2.7 | Phase 2 rollout (business-partner.md gate FIRST, module slices, final census) | WU1.5 |
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |
