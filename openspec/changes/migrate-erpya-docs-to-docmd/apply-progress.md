@@ -37,11 +37,18 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 2. Backslash → slash fix in `group-of-business-partners.md` (1 char).
 3. Commit 13-entry `broken-links-baseline.json` (provenance: wu0.3-ci-report.md).
 
+## WU0.4 config & workflows — DRY-RUN COMPLETE (lockfile objective pending)
+
+- Delivered: `package.json` (exact pin 0.9.4, bin `docmd`), `docmd.config.json` (url subpath D8, versions verbatim D2, plugins D9; `redirects: {}` until WU0.7), `.github/workflows/docs.yml` (design §2.5 + bootstrap guards: gate needs docs/index.md, deploy needs assets/img), `build-benchmark.yml` (workflow_dispatch timed build → job summary), `.gitignore` += site/ node_modules/.
+- Verified with exact repo bytes: npm ci → 0.9.4; 8-version build 2,051 pages 9.1 s; sitemap subpath prefix OK (C6); llms.txt + 9 MB search index; version URLs 200 (/, /rs4x/updates/, /adm394/). Full report: `evidence/wu0.4-config-report.md`.
+- **R10 CLOSED from 0.9.4 dist source**: `redirects` is a MAP {from: to} emitted as meta-refresh pages; identity entries OVERWRITE real pages → cutover needs ZERO config redirects (D1 identity + canonical trailing-slash URLs). WU0.7: gen-redirects.mjs updated to emit coverage manifest + non-identity-only config map (expected empty).
+- Ledger: objective "WU0.4 config and workflows" (token sha256:07225090…, hand-authored ≤400); lockfile (1,367 lines generated) under separate objective "WU0.4 lockfile (generated)" — rescope only narrows, so separate budget; same stacked PR.
+
 ## Pending work units (DAG order)
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU0.4 | docmd.config.json + docmd.config.current.json + workflows | WU0.1, WU0.2, WU0.3 |
+| WU0.4 (lockfile objective) | commit generated package-lock.json | WU0.4 config |
 | WU0.5 | BULK content commit (1,284 md, 1,374 files total) | WU0.1 |
 | WU0.6 | BULK assets commit (5,287 files, ~380 MB; LFS decision point) | WU0.1 |
 | WU0.7 | Generated navigation + per-version trees + redirect map | WU0.2, WU0.5 |

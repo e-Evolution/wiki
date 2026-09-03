@@ -1,2 +1,6 @@
 # Local Pi runtime state
 .atl/
+
+# docmd build output
+site/
+node_modules/

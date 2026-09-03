@@ -1,0 +1,31 @@
+{
+  "title": "ERpya Docs",
+  "url": "https://e-evolution.github.io/wiki",
+  "versions": {
+    "current": "rs5x",
+    "position": "sidebar",
+    "all": [
+      { "id": "rs5x", "dir": "docs", "label": "RS 5.x (current)" },
+      { "id": "rs4x", "dir": "docs-rs4x", "label": "RS 4.x" },
+      { "id": "rs3x", "dir": "docs-rs3x", "label": "RS 3.x" },
+      { "id": "rs2x", "dir": "docs-rs2x", "label": "RS 2.x" },
+      { "id": "rs1x", "dir": "docs-rs1x", "label": "RS 1.x" },
+      { "id": "adm394", "dir": "docs-adm394", "label": "ADempiere 3.9.4" },
+      { "id": "tes", "dir": "docs-tes", "label": "T.E.S" },
+      { "id": "devices", "dir": "docs-devices", "label": "Devices" }
+    ]
+  },
+  "redirects": {},
+  "plugins": {
+    "search": {
+      "enabled": true,
+      "semantic": false
+    },
+    "llms": {
+      "enabled": true
+    },
+    "seo": {
+      "defaultDescription": "Documentación de ERpya (ERP open source) — manual de usuario, procedimientos y notas de actualización."
+    }
+  }
+}
