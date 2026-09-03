@@ -54,7 +54,17 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU0.6 | BULK assets commit (5,287 files, ~380 MB; LFS decision point) | WU0.1 (ready) |
+## WU0.6 BULK assets — COMPLETO (census-reviewed). PR #6.
+- `assets/` commitado: 5,287 files, 371 MB (img 5,249 + files 19 + icon 15 + site 4); muestra byte-identity 200/200 vs fuente (seed 20260903); 0 refs editados.
+- FIX .gitignore: `site/` → `/site/` (anchored) — la entrada de WU0.4 ignoraba `assets/site/` por cualquier nivel (detectado por el inventario del ledger).
+- R11 (371 MB): commit plano por diseño; LFS/CDN post-cutover.
+- Report: `evidence/wu0.6-census-report.md`.
+- Ledger learning: `--intended-untracked` cap = 32 paths → bulk se resuelve PRE-STAGEANDO antes del acquire (staged = parte del candidate, no untracked).
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
 | WU0.7 | Generated navigation + per-version trees + redirect map | WU0.2, WU0.5 |
 | WU0.8 | Smoke: config load + first build + R13 co-located-file check | WU0.4, WU0.5, WU0.6, WU0.7 |
 | WU1.1–WU1.5 | Phase 1 pilot (measurements, pilot slice, OQ1/OQ2 experiments, AI verification) | WU0.8 |
