@@ -72,7 +72,21 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU0.8 | Smoke: config load + first build + R13 co-located-file check | WU0.4, WU0.5, WU0.6, WU0.7 |
+## WU0.8 vue-demo + primer build limpio + gates — COMPLETO (gate Phase 0). PR #8.
+- vue-demo adaptado (D7): 3 contenedores → headings + listado de código + blockquote de paridad + screenshot del sitio fuente (assets/img/docs/vue-demo/screenshot.png, única adición documentada al mirror). 0 residuos `::: vue-demo`; 2 `::: tip` intactos.
+- Primer build in-repo: exit 0, 2,051 páginas 11.6s, 0 errores, 1 warning conocido (normaliser). Gates: ci-validate PASS (new 0) + check-images PASS (0 missing). R10 verificado (redirects {} parseado). R12 verificado (2,051 index.html incl. 7 landings). Smoke URLs: 200/301 (paridad VuePress).
+- **R13 DEFECTO capturado por el smoke test**: co-located no se copian al build → 404 en deploy. Mitigación de diseño → WU0.8a. Report: `evidence/wu0.8-build-gates-report.md`.
+
+## WU0.8a R13 fix (co-located al mirror) — COMPLETO. PR #9.
+- 90 archivos co-located movidos `docs/<M>` → `assets/<M>` (path-preserving; navigation.json excluido). 13 refs reescritas a /assets/ canónicas (12 PNG mm + 1 PDF aduanas). 77 archivos nunca referenciados movidos también (completitud del mirror).
+- Post-fix: docs/ = 100% md (1,284 + navigation.json); assets/ = 5,378 (5,287 + 90 + screenshot). check-images PASS (0 relative, 0 missing). ci-validate PASS (new 0). Clean rebuild exit 0 (2,051p 6.9s). Curl: 200 en PNGs/PDF/páginas.
+- Incidente documentado: rmtree erróneo en el script de reubicación borró el destino recién movido; recuperado sin pérdidas vía `git restore --worktree` (archivos intactos en index).
+- Report: `evidence/wu0.8a-r13-fix-report.md`. **PHASE 0 COMPLETA (WU0.1–WU0.8 + WU0.8a, PR #1–#9).**
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
 | WU1.1–WU1.5 | Phase 1 pilot (measurements, pilot slice, OQ1/OQ2 experiments, AI verification) | WU0.8 |
 | WU2.1–WU2.7 | Phase 2 rollout (business-partner.md gate FIRST, module slices, final census) | WU1.5 |
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |

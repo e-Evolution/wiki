@@ -298,11 +298,11 @@ Para la presentación del caso, se elaboró la orden de venta **OVN-20906**
 
 **Encabezado de la Orden** 
 
-![Encabezado de la Orden de Venta OVN-20906](encabezado-orden-ovn-20906.png)
+![Encabezado de la Orden de Venta OVN-20906](/assets/docs/material-management/encabezado-orden-ovn-20906.png)
 
 **Líneas de la Orden**
 
-![Línea de la Orden de Venta OVN-20906](linea-orden-ovn-20906.png)
+![Línea de la Orden de Venta OVN-20906](/assets/docs/material-management/linea-orden-ovn-20906.png)
 
 ### **Generar Orden de Salida**
 
@@ -318,11 +318,11 @@ Para la presentación del caso, se generó la orden de salida **OSE-3452**
 
 **Encabezado de la Orden** 
 
-![Encabezado de la Orden de Salida OSE-3452](encabezado-orden-ose-3452.png)
+![Encabezado de la Orden de Salida OSE-3452](/assets/docs/material-management/encabezado-orden-ose-3452.png)
 
 **Líneas de la Orden**
 
-![Línea de la Orden de Salida OSE-3452](linea-orden-ose-3452.png)
+![Línea de la Orden de Salida OSE-3452](/assets/docs/material-management/linea-orden-ose-3452.png)
 
 ### **Generar Lista de Selección para Entrega (Picking List)**
 
@@ -340,17 +340,17 @@ Estando en el smart browser se podran visualizar diferentes campos que permiten 
 
 - **Producto**: Permite filtrar la información en base al producto ingresado en el campo.
 
-![Smart Browser Picking List](smart-browser-picking-list.png)
+![Smart Browser Picking List](/assets/docs/material-management/smart-browser-picking-list.png)
 
 Para la presentación del caso, se filtrará la información por la orden de venta **OVN-20906**.
 
 Luego de colocar la orden de venta y seleccionar la opción **Comenzar Búsqueda**, podrá visualizar todas las líneas de la orden, según los campos utilizados para filtrar la información.
 
-![Resultado de Busqueda Smart Browser Picking List](resultado-busqueda-picking-list.png)
+![Resultado de Busqueda Smart Browser Picking List](/assets/docs/material-management/resultado-busqueda-picking-list.png)
 
 Debe seleccionar las líneas con las que requiere generar el Picking List
 
-![Seleccion Lineas Picking List](seleccion-lineas-picking-list.png)
+![Seleccion Lineas Picking List](/assets/docs/material-management/seleccion-lineas-picking-list.png)
 
 La información de los campos inferiores, es cargada por defecto según la configuración realizada por los consultores de **ERPyA** indicando:
 
@@ -368,15 +368,15 @@ Al ejecutar el proceso, ADempiere muestra de manera automática en la ventana **
 
 Para la presentación del caso, fue generado el Picking List **1000202**
 
-![Picking List en Documento Seleccionado](picking-list-generado.png)
+![Picking List en Documento Seleccionado](/assets/docs/material-management/picking-list-generado.png)
 
 En la pestaña **Línea de Orden de Salida** de dicha ventana puede verificar las líneas cargadas.
 
-![Linea de Picking List Generado](linea-picking-list-generado.png)
+![Linea de Picking List Generado](/assets/docs/material-management/linea-picking-list-generado.png)
 
 Adicionalmente puede ver el reporte del Picking List, regresando a la pestaña principal **Documento Seleccionado (Gestión de Almacén)** y luego seleccionando el icono **Informe**.
 
-![Reporte de Picking List](reporte-picking-list-generado.png)
+![Reporte de Picking List](/assets/docs/material-management/reporte-picking-list-generado.png)
 
 ### **Generar Entrega y Factura**
 
@@ -392,8 +392,8 @@ Estos documentos se pueden realizar ejecutando los siguientes procesos:
 
 Para la presentación del caso, fue generada la entrega **EN-21290**.
 
-![encabezado entrega desde os](encabezado-entrega-desde-os.png)
+![encabezado entrega desde os](/assets/docs/material-management/encabezado-entrega-desde-os.png)
 
 Para la presentación del caso, fue generada la factura **217764**.
 
-![encabezado factura desde os](encabezado-factura-desde-os.png)
+![encabezado factura desde os](/assets/docs/material-management/encabezado-factura-desde-os.png)

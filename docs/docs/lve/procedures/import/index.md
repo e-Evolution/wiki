@@ -51,7 +51,7 @@ En forma paralela, el importador deberá realizar la gestión de negociación co
 
 - Finalmente, para retirar la mercancía se cancela el servicio de almacenaje en zona franca para culminar la liquidación en aduana del(os) conterdor(es).
 
-- Posteriormente, el agente aduanal entrega la documentación completa al importador una vez haya culminado en su totalidad la nacionalización, y se haya completado los derechos de tasas portuaria y tarifas por servicios portuarios establecidos según sea el caso en la [Ley Orgánica de Aduanas](../import/LEY_ORGANICA_DE_ADUANAS.pdf), junto a la documentación del expediente el agente aduanal consigna la relación de gastos de nacionalización, tales como:
+- Posteriormente, el agente aduanal entrega la documentación completa al importador una vez haya culminado en su totalidad la nacionalización, y se haya completado los derechos de tasas portuaria y tarifas por servicios portuarios establecidos según sea el caso en la [Ley Orgánica de Aduanas](/assets/docs/lve/procedures/import/LEY_ORGANICA_DE_ADUANAS.pdf), junto a la documentación del expediente el agente aduanal consigna la relación de gastos de nacionalización, tales como:
 
   - Planilla Forma 79084
   - Planilla Forma 99086
