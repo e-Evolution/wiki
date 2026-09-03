@@ -1,0 +1,18 @@
+{
+  "note": "Pre-existing broken links in erpcya/docs (parity-preserved; verified present in the source tree, NOT caused by the migration). Repair is a separate editorial task.",
+  "entries": [
+    "broken",
+    "PANTALLAS_SERVICIO_NOMINA_PLUS.ppt",
+    "Banco_Nacional_de_Crdito_C.A_1000040.txt",
+    "Banplus_Estado_de_cuenta.txt",
+    "(http://erpya.com",
+    "./%20intercompany-process.md/",
+    "erpya-3.9.4-001-3.8.5.md",
+    "store",
+    "teacher-report",
+    "ttps://github.com/erpcya/Control-PROSEIN/issues/380",
+    "withholding-islr.md/",
+    "withholding-iva.md/",
+    "withholding-municipality.md/"
+  ]
+}
