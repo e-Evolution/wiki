@@ -49,33 +49,38 @@ La configuración es fácil. Sigue estos pasos:
 
 Clonar un repositorio en su computadora local es simple. Siga las instrucciones con el software de GitHub o su herramienta GUI, muchas de las cuales permiten clonar un repositorio de GitHub en una computadora local con unos pocos clics del mouse. Si quieres hacerlo desde la línea de comandos,
 
-::: vue-demo Clonar el proyecto por defecto
+> **Paridad:** el sitio fuente (docs.erpya.com) presentaba estas instrucciones en
+> contenedores interactivos `vue-demo`. Aquí se conservan como listado de código
+> estático; el componente en vivo no está disponible en docmd. Así se veía la caja
+> original en el sitio fuente:
+>
+> ![Caja vue-demo del sitio fuente (docs.erpya.com/product/source-code/)](/assets/img/docs/vue-demo/screenshot.png)
+
+#### Clonar el proyecto por defecto
 
 ```Concha
 # Navegue hasta el directorio principal donde se colocará el repositorio y escriba el siguiente comando
 clon de git https://github.com/adempiere/adempiere
 ```
 
-:::
 
 Esto creará un directorio usando el nombre del proyecto URL, inicializará un directorio .git dentro de él, extraerá todos los datos para ese repositorio y obtendrá una copia de trabajo de la última versión. Si ingresa al nuevo directorio, verá los archivos del proyecto allí, listos para trabajar o usar.
 
 Para cambiar el nombre del directorio de clonación use lo siguiente
 
-::: vue-demo Clona el proyecto con Nombre Opcional
+#### Clona el proyecto con Nombre Opcional
 
 ```Concha
 # Navegue hasta el directorio principal donde se colocará el repositorio y escriba el siguiente comando
 clon de git https://github.com/adempiere/adempiere <Nombre opcional>
 ```
 
-:::
 
 ### Clonación del repositorio con una conexión lenta
 
 Para clonar un repositorio a través de una conexión a Internet lenta o intermitente, intente usar git fetch en lugar de clonar de la siguiente manera:
 
-::: vue-demo Para Linux
+#### Para Linux
 
 ```Concha
   # Ir a la carpeta predeterminada
@@ -102,4 +107,3 @@ Para clonar un repositorio a través de una conexión a Internet lenta o intermi
   git reset --hard origin/master
 ```
 
-:::
