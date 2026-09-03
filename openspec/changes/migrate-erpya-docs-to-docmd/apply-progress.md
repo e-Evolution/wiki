@@ -63,9 +63,15 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 ## Pending work units (DAG order)
 
+## WU0.7 generated outputs — COMPLETO (manifest/census-reviewed). PR #7.
+- docs/navigation.json: 69/69 paths, 0 broken. 7 version trees: 774 files, per-version counts EXACT vs source. Redirects: 1,284 URLs coverage, **1,284 identity / 0 config-map entries** → `redirects: {}` (cero redirects en cutover, probado).
+- gen-redirects.mjs evolucionado (R10): manifest de cobertura + config map solo no-identidad (formateo array viejo era inefectivo en 0.9.4; el map emite meta-refresh e identidad sobreescribe páginas).
+- Report: `evidence/wu0.7-generated-report.md`.
+
+## Pending work units (DAG order)
+
 | WU | Title | Blocked by |
 |---|---|---|
-| WU0.7 | Generated navigation + per-version trees + redirect map | WU0.2, WU0.5 |
 | WU0.8 | Smoke: config load + first build + R13 co-located-file check | WU0.4, WU0.5, WU0.6, WU0.7 |
 | WU1.1–WU1.5 | Phase 1 pilot (measurements, pilot slice, OQ1/OQ2 experiments, AI verification) | WU0.8 |
 | WU2.1–WU2.7 | Phase 2 rollout (business-partner.md gate FIRST, module slices, final census) | WU1.5 |

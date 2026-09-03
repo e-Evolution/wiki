@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Actualizaciones",
+    "path": "/updates",
+    "children": [
+      {
+        "title": "erpya-T.E.S-001-4.x.x",
+        "path": "/updates/erpya-T.E.S-001-4.x.x"
+      }
+    ]
+  }
+]

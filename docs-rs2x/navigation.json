@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Actualizaciones",
+    "path": "/updates",
+    "children": [
+      {
+        "title": "rs-20.x",
+        "path": "/updates/rs-20.x"
+      },
+      {
+        "title": "rs-21.x",
+        "path": "/updates/rs-21.x"
+      },
+      {
+        "title": "rs-22.x",
+        "path": "/updates/rs-22.x"
+      },
+      {
+        "title": "rs-23.x",
+        "path": "/updates/rs-23.x"
+      },
+      {
+        "title": "rs-24.x",
+        "path": "/updates/rs-24.x"
+      },
+      {
+        "title": "rs-25.x",
+        "path": "/updates/rs-25.x"
+      },
+      {
+        "title": "rs-26.x",
+        "path": "/updates/rs-26.x"
+      },
+      {
+        "title": "rs-27.x",
+        "path": "/updates/rs-27.x"
+      },
+      {
+        "title": "rs-28.x",
+        "path": "/updates/rs-28.x"
+      },
+      {
+        "title": "rs-29.x",
+        "path": "/updates/rs-29.x"
+      }
+    ]
+  }
+]
