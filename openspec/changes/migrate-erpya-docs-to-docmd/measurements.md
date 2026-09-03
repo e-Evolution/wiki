@@ -26,9 +26,34 @@ sanitized):
 Pass = build green + `/rs-3.x/…` URLs serve + switcher round-trips.
 Fail or any ambiguity = revert to the D2 sanitized block (config-only, no content move).
 
-**Config used:** _pending — WU1.3_
-**Evidence (build / URL / switcher):** _pending — WU1.3_
-**Decision (adopt dotted ids / fallback to D2 sanitized):** _pending — WU1.3_
+**Config used (WU1.3, exact design-6 experiment):**
+
+```json
+{ "current": "rs-5.x",
+  "all": [ { "id": "rs-5.x", "dir": "docs", "label": "RS 5.x (current)" },
+           { "id": "rs-3.x", "dir": "docs-rs3x", "label": "RS 3.x" } ] }
+```
+
+(position kept at `sidebar-top` per the WU1.2 fix; dir names sanitized)
+
+**Evidence (WU1.3):**
+- Build: exit 0, 1,396 pages (current + rs-3.x trees), 0 errors.
+- URLs: 200 on `/rs-3.x/`, `/rs-3.x/updates/`, and deep nested-dotted
+  `/rs-3.x/updates/rs-35.x/rs-35.4/`; current-root URLs unaffected.
+- Switcher: 2 items rendered in the sidebar; from `/rs-3.x/` the toggle reads
+  **RS 3.x** with the RS 3.x item active and the root link pointing back —
+  round-trip complete both ways.
+
+**Decision: ADOPT dotted ids.** The experiment passed all three criteria
+(build green + dotted subpath URLs serve + switcher round-trips). Final 8-version
+config (WU1.3 commit): dotted ids for every line with a natural dotted form —
+`rs-5.x, rs-4.x, rs-3.x, rs-2.x, rs-1.x, ad-3.9.4` — and the unchanged sanitized
+ids `tes` / `devices` (no dotted form exists for them). Dir names stay sanitized
+(D2). Verified after adoption: build exit 0 (2,051 pages), 200 on all seven
+version roots, 8-item switcher with dotted hrefs.
+
+Redirect-map note: non-current version URLs are NEW (they never existed on the
+old site), so the WU0.7 identity coverage map is unaffected by the id change.
 
 ## OQ2 — Build-time budget (R2)
 
