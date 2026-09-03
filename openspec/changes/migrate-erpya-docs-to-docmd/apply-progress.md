@@ -19,11 +19,28 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 - 3 generator bugs caught by the dry-run post-conditions and fixed pre-commit (string-leaf drop, /index slice width, heading-group resolver).
 - Ledger: objective "WU0.2 generator tooling", token `sha256:96ed4259…`.
 
+## WU0.3 CI tooling — DRY-RUN COMPLETE (both gates green)
+
+- Scripts delivered: `scripts/ci/ci-validate.mjs` (MCP stdio → validate_docs; existence-based asset classification; committed baseline for pre-existing defects; R9 degraded build-scan mode), `scripts/ci/check-images.mjs` (5,672 refs, 0 missing; business-partner.md 309-ref sample).
+- Key findings (full report: `evidence/wu0.3-ci-report.md`):
+  1. **docmd canonical URLs keep trailing slash = identical to VuePress** → D5 redirect map is an IDENTITY map (WU0.7: emit canonical `to`).
+  2. **OQ2 closed: full build = 1,284 pages in 7.4 s** → R2 mitigation unnecessary.
+  3. validate_docs resolves /assets/ against docs source dir (4,907 mirror-strict flags; build + HTTP 200 prove runtime correct).
+  4. Broken-link census: 43 README targets (rename-caused → 60-link rewrite verified in WU0.5) + 13 pre-existing (baseline) + 0 missing /assets/ images.
+  5. R13 resolved early: docmd resolves co-located non-md (no move/rewrite needed).
+  6. Config note: `description` is not a docmd top-level property (WU0.4 schema check).
+- Ledger: objective "WU0.3 CI tooling", token `sha256:0ebd6cb2…`.
+
+## WU0.5 content-fix list (from WU0.3 evidence)
+
+1. Rewrite 60 `](…README.md)` links → directory-index form (verified).
+2. Backslash → slash fix in `group-of-business-partners.md` (1 char).
+3. Commit 13-entry `broken-links-baseline.json` (provenance: wu0.3-ci-report.md).
+
 ## Pending work units (DAG order)
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU0.3 | CI tooling (build, validate, image-ref, benchmark scripts) | WU0.1 |
 | WU0.4 | docmd.config.json + docmd.config.current.json + workflows | WU0.1, WU0.2, WU0.3 |
 | WU0.5 | BULK content commit (1,284 md, 1,374 files total) | WU0.1 |
 | WU0.6 | BULK assets commit (5,287 files, ~380 MB; LFS decision point) | WU0.1 |
