@@ -90,6 +90,17 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU1.2 | Pilot verification slice (14 páginas) | WU1.1 |
+## WU1.2 pilot verification slice — COMPLETO. PR #11.
+- 14 páginas piloto (basic-rules 9 + master-data 4 + index): build exit 0 (2,051p), 200 en las 14 URLs.
+- Ctrl+K REAL en navegador: término piloto-único "authenticator" (contenencia index-verificada: solo 2 páginas piloto) → resultados → click → navegación a /docs/basic-rules/login-2fa/.
+- **DEFECTO ENCONTRADO Y FIXEADO (config 1 línea)**: `versions.position: "sidebar"` NO es valor válido en 0.9.4 (layout.ejs solo renderiza con 'sidebar-top'|'sidebar-bottom' — verificado desde dist source; el switcher no renderizaba en ninguna parte). Fix: → "sidebar-top" (desviación de D2 registrada, intención de D2 cumplida). Switcher: 8 items en sidebar, Latest badge, round-trip /rs4x/ verificado.
+- Gate CI: workflow no dispara en PR apilado (base ≠ main) — evidencia equivalente: la secuencia exacta de docs.yml corrida local, todo PASS (new 0 / 0 missing).
+- Report: `evidence/wu1.2-pilot-report.md`.
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
+| WU1.3 | OQ1 experiment dotted-ids (2 versiones) | WU1.2 |
 | WU2.1–WU2.7 | Phase 2 rollout (business-partner.md gate FIRST, module slices, final census) | WU1.5 |
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |
