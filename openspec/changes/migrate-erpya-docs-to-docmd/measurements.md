@@ -71,6 +71,21 @@ If the decision is **adjust**, apply STOPs for owner confirmation before any
 mitigation is selected (decision needed before apply).
 
 **Runner:** `build-benchmark.yml` (workflow_dispatch, full-scope `npm ci` + build)
-**Pilot commit:** _pending — WU1.4_
-**Measured time:** _pending — WU1.4_
-**Decision (go / adjust + named mitigation):** _pending — WU1.4_
+**Pilot commit:** `c515b35` (WU1.3, final Phase 1 config)
+**Measured time (WU1.4):** full pipeline measured on the pilot commit —
+clone (full, cold) **10.8 s** + `npm ci` **1.2 s** (warm npm cache; a cold
+`@docmd/core` install is ≈12 s) + `npx @docmd/core build` **8.4 s**
+(2,051 pages) = **total 20.4 s (0.34 min)**.
+
+**Dispatch constraint (documented deviation):** `build-benchmark.yml` cannot be
+triggered via `workflow_dispatch` yet — GitHub only resolves dispatchable
+workflows on the default branch, and the workflow file lands on `main` with the
+pending PR chain (WU0.4, PR #4, under review). The measurement above runs the
+workflow's exact command sequence (full cold clone → `npm ci` → timed build,
+same order, same commands) on the pilot commit. After the chain merges, the
+native C7 run (manual, never a gate) can confirm on an Actions runner; with
+these build numbers a pessimistic 5–10x Actions factor stays far under budget.
+
+**Decision: GO** (20.4 s ≪ 20 min). No mitigation selected; the C7 ladder
+(Actions caching → slim first import → self-hosted/paid runner) remains
+documented and untriggered.
