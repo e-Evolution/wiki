@@ -12,11 +12,17 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 - Ledger: attempt 2 of 2 (post maintainer-approved reset), token `sha256:e7a09dc4…`.
 - Status: commit + PR pending (this work unit's PR #1 of the stacked chain).
 
+## WU0.2 generator tooling — DRY-RUN COMPLETE
+
+- Scripts delivered: `scripts/migrate/gen-navigation.mjs`, `gen-version-trees.mjs`, `gen-redirects.mjs` (outputs land in WU0.7).
+- Dry-run: **all green** — nav 84 items / 69 path-bearing / resolver 69/69 (0 broken); 7 version trees built and resolved (D2 block emitted verbatim); redirect map exactly 1,284 entries with correct per-module counts. Full report: `evidence/wu0.2-generator-report.md`.
+- 3 generator bugs caught by the dry-run post-conditions and fixed pre-commit (string-leaf drop, /index slice width, heading-group resolver).
+- Ledger: objective "WU0.2 generator tooling", token `sha256:96ed4259…`.
+
 ## Pending work units (DAG order)
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU0.2 | Generator tooling (navigation.json, per-version trees, redirect map) | WU0.1 |
 | WU0.3 | CI tooling (build, validate, image-ref, benchmark scripts) | WU0.1 |
 | WU0.4 | docmd.config.json + docmd.config.current.json + workflows | WU0.1, WU0.2, WU0.3 |
 | WU0.5 | BULK content commit (1,284 md, 1,374 files total) | WU0.1 |
