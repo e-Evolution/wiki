@@ -169,7 +169,6 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU2.5 | slice community (3 md) | WU2.2 |
 ## WU2.6 slice downloads BULK + version trees — COMPLETO. PR #20 (base wu2.4 per DAG).
 - 844 md → 844 URLs, **844/844 200**, 0 excepciones (R6: contenido editorialmente stale; solo verificación, decisión editorial = owner).
 - Version trees: **7/7 roots no-current 200** (rs-4.x, rs-3.x, rs-2.x, rs-1.x, ad-3.9.4, tes, devices) + 7/7 páginas sample per tree 200. `/rs-5.x/` 404 = PARIDAD (current vive en root; nunca fue URL vieja, ausente del manifest de cobertura).
