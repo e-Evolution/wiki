@@ -212,3 +212,29 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
   - Verificado en producción: 4/4 spot 200 en subpath; llms.txt 2,051; **sitio viejo `docs.erpya.com` intacto (200, sigue sirviendo VuePress)**.
   - **Re-activación futura del custom domain (en ese orden)**: 1) re-add `CNAME` = `docs.erpya.com`, 2) `url` → `https://docs.erpya.com` (+ rebuild vía Actions), 3) flip del CNAME DNS (`erpcya.github.io` → `e-evolution.github.io`; mismas 4 IPs de Pages).
 - **Queda (owner)**: flip DNS + verif. host custom (cuando se decida); decommission de erpcya/docs (recién post-verificación); sdd-archive post-Phase-3.
+
+## JUDGMENT-DAY FIX (2026-09-04) — F1 + F5 (ledger: evidence/judgment-day-ledger.md)
+
+- **F1 — .html URL class (1,085 URLs) ahora redirigida:**
+  - Oracle commitado: `scripts/migrate/old-sitemap-urls.txt` (1,284 URLs; fetched 2026-09-04 de docs.erpya.com/sitemap.xml; host del sitemap docs-md.erpya.com ya es NXDOMAIN; aserciones 1,085 .html / 199 slash / 1 %20). Generación offline-reproducible.
+  - `gen-redirects.mjs` extendido: por cada oracle `.html` → `from` = path exacto (%20 → espacio crudo, literal fs) y `to` = URL canónica built (slugifySegment modeling, .html stripped). Aserciones pre-write: 1,086 entradas, froms únicos (raw + normalizado), `to` trailing-slash, cada `to` es página built, sin colisión con page-paths.
+  - `redirects-map.json` = 1,086 entradas (1,085 .html + 1 slash %20 pre-existente). Campo `redirects` de `docmd.config.json` reemplazado quirúrgicamente (prefijo/sufijo byte-idénticos, JSON válido).
+  - Build exit 0 (2,051 páginas, 8.4s). Medido en disco: los stubs `.html` son ARCHIVOS PLANOS (1,085; servidos 200 directo, 1 hop, meta-refresh/replace); el slash %20 = dir stub (1; 301→stub, 2 hops). `find site -name index.html` = 2,052 = 2,051 páginas + 1 dir stub. Flat redirects = 1,085 → total de artifacts de redirect 1,086 = entradas del map.
+  - Sitemap `<loc>` = 2,051 y llms.txt = 2,051 URLs (los stubs no son páginas).
+  - Gates: ci-validate PASS (real broken 13 / baseline 13 / new 0); check-images PASS (0 missing).
+- **F5 — `redirects-manifest.md` reescrito** con semántica corregida: censo 1,284 = 1,085 + 199; URL-form contract medido; identity = 199 exact-URL (re-medido: 199/199 old 200 en docs.erpya.com); non-identity = 1,085 .html + par %20; config map = 1,086; nota F2 (edge aceptado, 1 URL, browsers self-repair); tabla de verificación post-deploy PENDING. Eliminadas las claims falsas "Identity: 1283" / "zero config map ⇒ no redirects".
+- **Rollback**: revertir el commit y re-ejecutar `node scripts/migrate/gen-redirects.mjs docs . 1284` desde el oracle (salidas byte-idénticas, verificado idempotente).
+
+### Round-1 v2 (2026-09-04) — defecto de objetivos absolutos → targets relativos
+
+- **Defecto (verificado por el parent, determinista)**: el sitio vive en SUBPATH `https://e-evolution.github.io/wiki/`, pero los 1,086 stubs emitían targets root-absolutos (`url=/community/code-of-conduct/`, `replace("/…")`). Medido en producción: el target del stub ya desplegado `https://e-evolution.github.io/docs/other-process/intercompany-process/intercompany-process/` → **404** (la página real está bajo `/wiki/`). Los 1,086 stubs habrían 404eado sus targets en el host subpath.
+- **Fijación (base-independent)**: `gen-redirects.mjs` ahora emite `to` = path **RELATIVO** al from-location (`base = from.endsWith('/') ? from : posix.dirname(from) + '/'`; `posix.relative(base, to)` + slash final), el mismo esquema que docmd usa para sus propios links de página. La URL canónica absolute sigue siendo el objetivo de las aserciones del generador (`posix.join(base, toOut) === toAbs` pre-write; `toOut` nunca empieza con `/` y siempre termina en `/`).
+- **Stub contents medidos post-rebuild (2,051 páginas, 1,085 flat stubs + 1 dir stub, 0 missing)**:
+  - `site/community/code-of-conduct.html` → `url=code-of-conduct/`, `replace("code-of-conduct/")`, canonical + `<a href>` relativos.
+  - `site/docs/basic-rules/login-2fa.html` → `url=login-2fa/`.
+  - `site/docs/other-process/intercompany-process/ intercompany-process.html` (espacio crudo) → `url=intercompany-process/`.
+  - `site/docs/other-process/intercompany-process/ intercompany-process/index.html` (dir stub) → `url=../intercompany-process/`.
+  - 0 de 1,086 stub files con targets root-absolutos (scan de `url=/` | `replace("/` | `href="/` sobre los 4 campos: url=, replace(), canonical, `<a href>`).
+- **Por qué no regenerar en el flip**: los stubs son base-independent — los mismos bytes resuelven en el subpath actual y en el dominio custom futuro (root); el flip no requiere regenerar el map. Declarado en `redirects-manifest.md` (URL-form contract + nota round-1 v2).
+- **Sin cambios**: sitemap `<loc>` = 2,051; llms.txt = 2,051 URLs; gates ci-validate PASS (real 13 = baseline 13, new 0), check-images PASS (0 missing); idempotencia del generador re-verificada (`git diff --stat` sin cambios tras re-run). El edge F2 (301 no-slash con espacio crudo en `Location`) es comportamiento de GitHub Pages sobre el directorio y NO se ve afectado por esta fijación.
+
