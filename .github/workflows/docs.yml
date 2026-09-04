@@ -11,8 +11,10 @@ permissions:
 
 jobs:
   gate:
-    # Content lives in docs/ from WU0.5 onward; before that the gate is a no-op.
-    if: hashFiles('docs/index.md') != ''
+    # NOTE: a job-level `if: hashFiles(...)` guard was removed — on this
+    # account it makes the whole run fail before any job starts (verified
+    # with a diagnostic matrix, 2026-09-04). The guard was a no-op guard for
+    # pre-content main (WU0.4 era); docs/ is permanent content from WU0.5 on.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -32,7 +34,8 @@ jobs:
     needs: gate
     # Deploy only on main and only once both content and assets have landed
     # (WU0.5/WU0.6), so the Pages subpath never serves a partial site.
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && hashFiles('assets/img') != ''
+    # (assets/img hashFiles guard removed for the same reason as above.)
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
