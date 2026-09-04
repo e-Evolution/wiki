@@ -135,10 +135,6 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 - **DECISIÓN R4: PASS** — sin defecto; split = scope change owner-reviewed (registrado como optimización editorial post-cutover). 0 líneas de fuente.
 - Report: `evidence/wu2.1-r4-gate-report.md`.
 
-## Pending work units (DAG order)
-
-| WU | Title | Blocked by |
-|---|---|---|
 ## WU2.2 slice home + about — COMPLETO. PR #16.
 - 88 URLs (root index + 87 about): 0 missing en build output, **88/88 en 200**.
 - Gates: ci-validate PASS (new 0) + check-images PASS (0 missing).
@@ -149,4 +145,17 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
+## WU2.3 slice product — COMPLETO. PR #17.
+- 5 md → 5 URLs: 0 missing en build, **5/5 en 200** (incl. source-code adaptado en WU0.8/D7).
+- Gates: ci-validate PASS (new 0) + check-images PASS (0 missing). 0 líneas de fuente.
+- Report: `evidence/wu2.3-slice-product-report.md`.
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
+| WU2.4 | slice docs core (344 md) | WU2.2 |
+| WU2.5 | slice community (3 md) | WU2.2 |
+| WU2.6 | slice downloads BULK (844 md) + version trees | WU2.3, WU2.4, WU2.5 |
+| WU2.7 | final census + switcher 8 versions | WU2.6 |
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |
