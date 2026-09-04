@@ -1,0 +1,12 @@
+name: diag-a-gate
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  gate:
+    if: hashFiles('docs/index.md') != ''
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "gate-def ok"
