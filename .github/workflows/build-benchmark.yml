@@ -1,0 +1,42 @@
+name: build-benchmark
+
+# Manual full-scope timed build (OQ2 measurement, design D6). Never gates PRs.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Timed build
+        run: |
+          set -o pipefail
+          START=$(date +%s%3N)
+          npx @docmd/core build 2>&1 | tee build.log
+          END=$(date +%s%3N)
+          ELAPSED=$((END - START))
+          {
+            echo "## Build benchmark"
+            echo
+            echo "- Start: $(date -u -d "@$((START / 1000))" +%FT%TZ 2>/dev/null || date -u -r $((START / 1000)) +%FT%TZ)"
+            echo "- End:   $(date -u -d "@$((END / 1000))" +%FT%TZ 2>/dev/null || date -u -r $((END / 1000)) +%FT%TZ)"
+            echo "- Duration: **${ELAPSED} ms**"
+            echo "- Runner: ubuntu-latest, Node 20"
+            echo "- docmd: $(node -p "require('@docmd/core/package.json').version")"
+            echo
+            echo "<details><summary>Build output</summary>"
+            echo
+            echo '```'
+            cat build.log
+            echo '```'
+            echo "</details>"
+          } >> "$GITHUB_STEP_SUMMARY"

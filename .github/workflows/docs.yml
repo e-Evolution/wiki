@@ -1,0 +1,52 @@
+name: docs
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  gate:
+    # Content lives in docs/ from WU0.5 onward; before that the gate is a no-op.
+    if: hashFiles('docs/index.md') != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Build (fail on any build error)
+        run: npx @docmd/core build
+      - name: Link validation (MCP validate_docs)
+        run: node scripts/ci/ci-validate.mjs .
+      - name: Image reference check
+        run: node scripts/ci/check-images.mjs docs assets
+
+  deploy:
+    needs: gate
+    # Deploy only on main and only once both content and assets have landed
+    # (WU0.5/WU0.6), so the Pages subpath never serves a partial site.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && hashFiles('assets/img') != ''
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docmd-io/deploy@v1
+        id: docmd-deploy
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.docmd-deploy.outputs.site-dir }}
+      - id: deployment
+        uses: actions/deploy-pages@v4
