@@ -47,7 +47,9 @@
       }
     ]
   },
-  "redirects": {},
+  "redirects": {
+    "/docs/other-process/intercompany-process/ intercompany-process/": "/docs/other-process/intercompany-process/intercompany-process/"
+  },
   "plugins": {
     "search": {
       "enabled": true,

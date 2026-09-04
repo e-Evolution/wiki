@@ -43,6 +43,25 @@ function walk(dir, out) {
   return out;
 }
 
+// docmd slugifies each route/output segment (dist engine/generator.js
+// slugifyOutputPath + utils/auto-router.js slugifySegment): spaces -> '-',
+// other unsafe URL chars -> '-', collapse '---', trim leading/trailing '-'.
+// 'from' keeps the exact OLD source URL (legacy site served it verbatim);
+// 'to' is the docmd BUILT URL, which may differ only where a filename needs
+// slugification.
+function slugifySegment(seg) {
+  return (
+    seg
+      .replace(/\s+/g, '-')
+      .replace(/[^a-zA-Z0-9\-_.~]/g, '-')
+      .replace(/-{2,}/g, '-')
+      .replace(/^-+|-+$/g, '') || seg
+  );
+}
+function slugifyPath(p) {
+  return p.split('/').map(slugifySegment).join('/');
+}
+
 const entries = [];
 for (const file of walk(docsDir, [])) {
   const rel = file.slice(docsDir.length + 1).slice(0, -3); // strip ./ and .md
@@ -50,11 +69,12 @@ for (const file of walk(docsDir, [])) {
   let to;
   if (rel.endsWith('/index') || rel === 'index') {
     const dirPath = rel === 'index' ? '' : rel.slice(0, -6); // strip '/index'
+    const slugDir = slugifyPath(dirPath);
     from = dirPath === '' ? '/' : `/${dirPath}/`;
-    to = from; // identity: docmd serves the directory index at the slashed URL
+    to = slugDir === '' ? '/' : `/${slugDir}/`;
   } else {
     from = `/${rel}/`;
-    to = from; // identity: canonical docmd URL keeps the trailing slash
+    to = `/${slugifyPath(rel)}/`;
   }
   entries.push({ from, to });
 }
