@@ -45,6 +45,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: docmd-io/deploy@v1
         id: docmd-deploy
+      # docmd 0.9.4 does not copy a CNAME into the build output; GitHub Pages
+      # reads it from the artifact root. Cutover commit (WU3.1).
+      - name: Add CNAME to Pages artifact
+        if: hashFiles('CNAME') != ''
+        run: cp CNAME "${{ steps.docmd-deploy.outputs.site-dir }}/CNAME"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ${{ steps.docmd-deploy.outputs.site-dir }}
