@@ -4936,9 +4936,9 @@
 [docs/product/technology.md:10] -> /assets/img/product/technology.jpg (Broken link: target resolved to docs/assets/img/product/technology.jpg does not exist)
 [ci-validate] validate_docs: PASS (mirror-strict asset refs: 4921, real broken: 13, baseline: 13, new: 0)
 
-[extraction note] This archive is a faithful extract of the full raw validate_docs output
-[extraction note] captured at gate run (4938 lines total: header + 4921 mirror-strict resolved-reference
-[extraction note] trace lines + 13 broken-link findings + summary). The 4921 trace lines are
-[extraction note] mechanical per-reference resolution output; every BROKEN-LINK FINDING is included
-[extraction note] verbatim above, as is the final PASS summary. Regenerate the full trace with:
-[extraction note]   node scripts/ci/ci-validate.mjs .
+[extraction note] Faithful extract of the full raw validate_docs output (4,938 lines
+[extraction note] total: header + 4,921 mirror-strict resolved-reference trace lines + 13
+[extraction note] broken-link findings + PASS summary). The 4,921 trace lines are mechanical
+[extraction note] per-reference resolution output and are omitted here; EVERY broken-link
+[extraction note] finding is included verbatim above, as is the final PASS summary line.
+[extraction note] Regenerate the full trace with: node scripts/ci/ci-validate.mjs .
