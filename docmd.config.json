@@ -3,7 +3,7 @@
   "url": "https://e-evolution.github.io/wiki",
   "versions": {
     "current": "rs5x",
-    "position": "sidebar",
+    "position": "sidebar-top",
     "all": [
       {
         "id": "rs5x",
