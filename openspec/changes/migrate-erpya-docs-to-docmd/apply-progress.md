@@ -165,6 +165,15 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 | WU | Title | Blocked by |
 |---|---|---|
 | WU2.5 | slice community (3 md) | WU2.2 |
-| WU2.6 | slice downloads BULK (844 md) + version trees | WU2.3, WU2.4, WU2.5 |
+## WU2.6 slice downloads BULK + version trees — COMPLETO. PR #20 (base wu2.4 per DAG).
+- 844 md → 844 URLs, **844/844 200**, 0 excepciones (R6: contenido editorialmente stale; solo verificación, decisión editorial = owner).
+- Version trees: **7/7 roots no-current 200** (rs-4.x, rs-3.x, rs-2.x, rs-1.x, ad-3.9.4, tes, devices) + 7/7 páginas sample per tree 200. `/rs-5.x/` 404 = PARIDAD (current vive en root; nunca fue URL vieja, ausente del manifest de cobertura).
+- Gates: ci-validate PASS (new 0) + check-images PASS (0 missing); extract archivado (procedimiento: extraer antes de commit).
+- Report: `evidence/wu2.6-slice-downloads-report.md`.
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
 | WU2.7 | final census + switcher 8 versions | WU2.6 |
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |

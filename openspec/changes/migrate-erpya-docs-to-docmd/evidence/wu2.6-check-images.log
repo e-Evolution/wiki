@@ -1,0 +1,8 @@
+files scanned:        1284
+image refs total:     5673
+  /assets/ refs:      4908
+  relative refs:      0
+  external (skipped): 765
+  other absolute:     0 (reported, not failing)
+acceptance sample:    business-partner.md refs = 309
+check-images: PASS (0 missing targets)
