@@ -175,5 +175,14 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU2.7 | final census + switcher 8 versions | WU2.6 |
+## WU2.7 final census + switcher 8 versions — COMPLETO. PR #21 (base wu2.6 per DAG).
+- **CENSO FINAL: 1,284 md → 1,284 URLs únicos, 0 missing en build, 1,284/1,284 en 200** (la URL con espacio resuelve vía el redirect de WU2.4). Build: 2,051 páginas (1,284 current + 767 version trees).
+- Gates site-wide: ci-validate PASS (new 0, baseline 13 parity) + check-images PASS (0 missing).
+- Switcher (8 versiones): presencia 8/8 roots (8 ítems c/u, active correcta); **sticky-route verificada live** (/rs-4.x/updates/ → rs-3.x → /rs-3.x/updates/); **fallback verificada live** (rs-40.x-only → rs-3.x → /rs-3.x/; deep current page → rs-4.x → /rs-4.x/). Mecanismo: fetch HEAD sticky + fallback (dist source).
+- **PHASE 2 COMPLETA (WU2.1–WU2.7, PR #15–#21)**. Report: `evidence/wu2.7-final-census-report.md`.
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |
