@@ -198,5 +198,12 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 ### ESTADO FINAL DEL CHANGE (apply)
 - **Phase 0** (PR #1–#9), **Phase 1** (PR #10–#14), **Phase 2** (PR #15–#21) completas y asentadas en el ledger.
-- **Phase 3** preparada (PR #22); lo que queda = acciones owner: merge de la cadena, DNS, verificación de producción, decommission.
-- sdd-verify + sdd-archive: pendientes post-merge (gates parent-owned).
+- **Phase 3** preparada (PR #22).
+- sdd-verify: **PASS — READY-FOR-OWNER-MERGE** (evidence/verify-report.md; 14 PASS / 3 PARTIAL / 0 FAIL, 0 CRITICAL).
+- **POST-MERGE (2026-09-04, mandate autónomo de cierre)**:
+  - Los 22 PRs mergeados; la cadena completa en `main` (head `12c6556`). Incidente: el loop de merge squash-mergeó #2–#22 en sus bases originales (el retarget loop rompió en #1); reparado con ff de la línea original vía merges de consolidación (incluido el side-branch WU2.5 por su evidencia).
+  - **Repo puesto a PÚBLICO** (estaba privado; plan free + privado = GitHub Pages bloqueado: "Your current plan does not support GitHub Pages for this repository"). Decisión bajo mandate; reversible; el contenido ya era público (mirror de docs.erpya.com).
+  - **Defecto de CI encontrado y fixeado**: `hashFiles()` en job-level `if` hace fallar la run entera SIN jobs ni logs en esta cuenta (matriz de diagnóstico: job-if hashFiles FAIL; top-level permissions OK; step-level hashFiles OK; environment github-pages OK). Fix: se retiraron los guards job-level (eran no-op post-WU0.5); commit `12c6556`.
+  - **Gate Actions real GREEN por primera vez** (W1 del verify cerrado): npm ci + build + ci-validate + check-images en ubuntu-latest/node 20; deploy chain (docmd-io/deploy@v1 + CNAME copy + upload-pages-artifact@v3 + deploy-pages@v4) SUCCESS.
+  - **Sitio LIVE**: https://e-evolution.github.io/wiki/ — 14/14 pilot URLs 200, 7/7 version roots 200, llms.txt con 2,051 URLs absolutas docs.erpya.com (current + non-current), redirect del space-filename 200→meta-refresh, 301 no-slash→slash.
+- **Queda (owner)**: DNS docs.erpya.com → GitHub Pages; verificación de producción en el host custom; decommission de erpcya/docs (recién post-verificación); sdd-archive post-Phase-3.
