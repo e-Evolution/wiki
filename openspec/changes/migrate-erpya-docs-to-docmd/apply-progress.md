@@ -139,5 +139,14 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU2.2–WU2.7 | Phase 2 rollout rest (slices home/about, product, docs, community, downloads BULK, final census) | WU2.1 |
+## WU2.2 slice home + about — COMPLETO. PR #16.
+- 88 URLs (root index + 87 about): 0 missing en build output, **88/88 en 200**.
+- Gates: ci-validate PASS (new 0) + check-images PASS (0 missing).
+- News posts (2) estáticos: 0 markers de blog (pagination/related/rss/comentarios); render como páginas normales (h2/imgs/texto verificados). 0 líneas de fuente.
+- Report: `evidence/wu2.2-slice-home-about-report.md`.
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |
