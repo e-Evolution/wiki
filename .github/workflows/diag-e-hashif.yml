@@ -1,0 +1,10 @@
+name: diag-e-hashif
+on:
+  push:
+    branches: [main]
+jobs:
+  hi:
+    if: hashFiles('docs/index.md') != ''
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hashif ok"

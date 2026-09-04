@@ -1,12 +1,11 @@
-name: diag-a-gate
+name: diag-d-perms
 on:
   push:
     branches: [main]
 permissions:
   contents: read
 jobs:
-  gate:
-    if: hashFiles('docs/index.md') != ''
+  hi:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "gate-def ok"
+      - run: echo "perms ok"
