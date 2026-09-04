@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Actualizaciones",
+    "path": "/updates",
+    "children": [
+      {
+        "title": "rs-40.x",
+        "path": "/updates/rs-40.x"
+      },
+      {
+        "title": "rs-41.x",
+        "path": "/updates/rs-41.x"
+      },
+      {
+        "title": "rs-42.x",
+        "path": "/updates/rs-42.x"
+      },
+      {
+        "title": "rs-43.x",
+        "path": "/updates/rs-43.x"
+      },
+      {
+        "title": "rs-44.x",
+        "path": "/updates/rs-44.x"
+      },
+      {
+        "title": "rs-45.x",
+        "path": "/updates/rs-45.x"
+      },
+      {
+        "title": "rs-46.x",
+        "path": "/updates/rs-46.x"
+      },
+      {
+        "title": "rs-47.x",
+        "path": "/updates/rs-47.x"
+      },
+      {
+        "title": "rs-48.x",
+        "path": "/updates/rs-48.x"
+      },
+      {
+        "title": "rs-49.x",
+        "path": "/updates/rs-49.x"
+      }
+    ]
+  }
+]

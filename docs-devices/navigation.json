@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Actualizaciones",
+    "path": "/updates",
+    "children": [
+      {
+        "title": "printers",
+        "path": "/updates/printers"
+      },
+      {
+        "title": "record-weight",
+        "path": "/updates/record-weight"
+      }
+    ]
+  }
+]

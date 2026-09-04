@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Actualizaciones",
+    "path": "/updates",
+    "children": [
+      {
+        "title": "rs-14.x",
+        "path": "/updates/rs-14.x"
+      },
+      {
+        "title": "rs-15.x",
+        "path": "/updates/rs-15.x"
+      },
+      {
+        "title": "rs-16.x",
+        "path": "/updates/rs-16.x"
+      },
+      {
+        "title": "rs-17.x",
+        "path": "/updates/rs-17.x"
+      },
+      {
+        "title": "rs-18.x",
+        "path": "/updates/rs-18.x"
+      },
+      {
+        "title": "rs-19.x",
+        "path": "/updates/rs-19.x"
+      }
+    ]
+  }
+]

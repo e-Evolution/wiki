@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Actualizaciones",
+    "path": "/updates",
+    "children": [
+      {
+        "title": "erpya-3.9.4-001-1.x.x",
+        "path": "/updates/erpya-3.9.4-001-1.x.x"
+      },
+      {
+        "title": "erpya-3.9.4-001-2.x.x",
+        "path": "/updates/erpya-3.9.4-001-2.x.x"
+      },
+      {
+        "title": "erpya-3.9.4-001-3.x.x",
+        "path": "/updates/erpya-3.9.4-001-3.x.x"
+      },
+      {
+        "title": "erpya-3.9.4-001-4.x.x",
+        "path": "/updates/erpya-3.9.4-001-4.x.x"
+      }
+    ]
+  }
+]

@@ -1,0 +1,391 @@
+[
+  {
+    "title": "Inicio",
+    "path": "/"
+  },
+  {
+    "title": "Nosotros",
+    "children": [
+      {
+        "title": "Acerca de",
+        "path": "/about",
+        "icon": "user"
+      },
+      {
+        "title": "Noticias",
+        "children": [
+          {
+            "title": "2023-01-01-adempiere-394",
+            "path": "/about/news/2023-01-01-adempiere-394"
+          },
+          {
+            "title": "Security-improvements-in-adempiere-cloud",
+            "path": "/about/news/security-improvements-in-adempiere-cloud"
+          }
+        ],
+        "path": "/about/news",
+        "icon": "newspaper"
+      },
+      {
+        "title": "Nuestros Servicios",
+        "children": [
+          {
+            "title": "Services",
+            "path": "/about/services"
+          },
+          {
+            "title": "Advanced-functional-support-scheme",
+            "path": "/about/advanced-functional-support-scheme"
+          },
+          {
+            "title": "Standard-procedures",
+            "path": "/about/standard-procedures"
+          }
+        ],
+        "icon": "rocket"
+      },
+      {
+        "title": "Otros Servicios",
+        "children": [
+          {
+            "title": "E-commerce",
+            "path": "/about/other-services/e-commerce"
+          },
+          {
+            "title": "Bot",
+            "path": "/about/other-services/bot"
+          }
+        ],
+        "icon": "list-checks"
+      }
+    ],
+    "path": "/about",
+    "icon": "id-card"
+  },
+  {
+    "title": "Producto",
+    "children": [
+      {
+        "title": "Caraterísticas de ADempiere",
+        "path": "/product",
+        "icon": "box"
+      },
+      {
+        "title": "Tecnologías",
+        "children": [
+          {
+            "title": "Technology",
+            "path": "/product/technology"
+          },
+          {
+            "title": "Business-process",
+            "path": "/product/business-process"
+          },
+          {
+            "title": "Benefits",
+            "path": "/product/benefits"
+          },
+          {
+            "title": "Source-code",
+            "path": "/product/source-code"
+          }
+        ],
+        "icon": "microchip"
+      }
+    ],
+    "path": "/product",
+    "icon": "box"
+  },
+  {
+    "title": "Documentación",
+    "children": [
+      {
+        "title": "ADempiere Estándar",
+        "path": "/docs",
+        "icon": "book"
+      },
+      {
+        "title": "Gestión Básica",
+        "children": [
+          {
+            "title": "Login",
+            "path": "/docs/basic-rules/login"
+          },
+          {
+            "title": "User-interface",
+            "path": "/docs/basic-rules/user-interface"
+          },
+          {
+            "title": "Icons-interface",
+            "path": "/docs/basic-rules/icons-interface"
+          },
+          {
+            "title": "Toolbar",
+            "path": "/docs/basic-rules/toolbar"
+          },
+          {
+            "title": "Quick-access",
+            "path": "/docs/basic-rules/quick-access"
+          },
+          {
+            "title": "Props",
+            "path": "/docs/basic-rules/props"
+          }
+        ],
+        "icon": "bookmark"
+      },
+      {
+        "title": "Aplicaciones",
+        "children": [
+          {
+            "title": "Record-weight",
+            "path": "/docs/devices/record-weight"
+          },
+          {
+            "title": "Printers",
+            "path": "/docs/devices/printers"
+          }
+        ],
+        "icon": "laptop"
+      },
+      {
+        "title": "Inicio de Sesión con Keycloak",
+        "children": [
+          {
+            "title": "Login-keycloak",
+            "path": "/docs/basic-rules/login-keycloak"
+          },
+          {
+            "title": "Login-2fa",
+            "path": "/docs/basic-rules/login-2fa"
+          }
+        ],
+        "icon": "fingerprint"
+      },
+      {
+        "title": "Importación",
+        "children": [
+          {
+            "title": "Data-importation",
+            "path": "/docs/data-importation"
+          }
+        ],
+        "icon": "file-output"
+      },
+      {
+        "title": "Otros procedimientos",
+        "children": [
+          {
+            "title": "Other-process",
+            "path": "/docs/other-process"
+          }
+        ],
+        "icon": "sliders"
+      },
+      {
+        "title": "Datos Maestros",
+        "children": [
+          {
+            "title": "Business-partner",
+            "path": "/docs/master-data/business-partner"
+          },
+          {
+            "title": "Product",
+            "path": "/docs/master-data/product"
+          },
+          {
+            "title": "Warehouse",
+            "path": "/docs/master-data/warehouse"
+          },
+          {
+            "title": "Reports",
+            "path": "/docs/master-data/reports"
+          }
+        ],
+        "icon": "thumbtack"
+      },
+      {
+        "title": "Gestiones",
+        "children": [
+          {
+            "title": "Material-management",
+            "path": "/docs/material-management"
+          },
+          {
+            "title": "Production-management",
+            "path": "/docs/production-management"
+          },
+          {
+            "title": "Distribution-management",
+            "path": "/docs/distribution-management"
+          },
+          {
+            "title": "Sales-management",
+            "path": "/docs/sales-management"
+          },
+          {
+            "title": "Customer-relationship-management",
+            "path": "/docs/customer-relationship-management"
+          },
+          {
+            "title": "Pdv-management",
+            "path": "/docs/pdv-management"
+          },
+          {
+            "title": "Purchase-management",
+            "path": "/docs/purchase-management"
+          },
+          {
+            "title": "Return-management",
+            "path": "/docs/return-management"
+          },
+          {
+            "title": "Balance-management",
+            "path": "/docs/balance-management"
+          },
+          {
+            "title": "Human-management",
+            "path": "/docs/human-management"
+          },
+          {
+            "title": "Asset-management",
+            "path": "/docs/asset-management"
+          },
+          {
+            "title": "Accounting-management",
+            "path": "/docs/accounting-management"
+          }
+        ],
+        "icon": "layers"
+      },
+      {
+        "title": "Verticales de Negocio",
+        "children": [
+          {
+            "title": "Fap",
+            "path": "/docs/verticals/fap"
+          },
+          {
+            "title": "Investment-and-loan",
+            "path": "/docs/verticals/investment-and-loan"
+          }
+        ],
+        "icon": "layers"
+      },
+      {
+        "title": "Localización Venezuela",
+        "children": [
+          {
+            "title": "Document-utility",
+            "path": "/docs/lve/document-utility"
+          },
+          {
+            "title": "Procedures",
+            "path": "/docs/lve/procedures"
+          },
+          {
+            "title": "Report",
+            "path": "/docs/lve/report"
+          },
+          {
+            "title": "Standard-coding",
+            "path": "/docs/lve/standard-coding"
+          }
+        ],
+        "icon": "layers"
+      }
+    ],
+    "path": "/docs",
+    "icon": "book"
+  },
+  {
+    "title": "Comunidad",
+    "children": [
+      {
+        "title": "Comunidad",
+        "path": "/community",
+        "icon": "users"
+      },
+      {
+        "title": "Comunidad de ADempiere ERP",
+        "children": [
+          {
+            "title": "Code-of-conduct",
+            "path": "/community/code-of-conduct"
+          },
+          {
+            "title": "Duties-and-rigths",
+            "path": "/community/duties-and-rigths"
+          }
+        ],
+        "icon": "package"
+      }
+    ],
+    "path": "/community",
+    "icon": "users"
+  },
+  {
+    "title": "Descargas",
+    "children": [
+      {
+        "title": "Descargas",
+        "path": "/downloads",
+        "icon": "download"
+      },
+      {
+        "title": "Binarios de Aplicaciones",
+        "children": [
+          {
+            "title": "Docker",
+            "path": "/downloads/docker"
+          },
+          {
+            "title": "Binary",
+            "path": "/downloads/binary"
+          }
+        ],
+        "icon": "archive"
+      },
+      {
+        "title": "Actualizaciones",
+        "children": [
+          {
+            "title": "Updates",
+            "path": "/downloads/updates"
+          },
+          {
+            "title": "Adempiere-3.9.4",
+            "path": "/downloads/updates/adempiere-3.9.4"
+          },
+          {
+            "title": "Rs-5.x",
+            "path": "/downloads/updates/rs-5.x"
+          },
+          {
+            "title": "Rs-4.x",
+            "path": "/downloads/updates/rs-4.x"
+          },
+          {
+            "title": "Rs-3.x",
+            "path": "/downloads/updates/rs-3.x"
+          },
+          {
+            "title": "Rs-2.x",
+            "path": "/downloads/updates/rs-2.x"
+          },
+          {
+            "title": "Rs-1.x",
+            "path": "/downloads/updates/rs-1.x"
+          },
+          {
+            "title": "Devices",
+            "path": "/downloads/updates/devices"
+          }
+        ],
+        "icon": "refresh-cw"
+      }
+    ],
+    "path": "/downloads",
+    "icon": "download"
+  }
+]
