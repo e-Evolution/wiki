@@ -145,6 +145,11 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 - News posts (2) estáticos: 0 markers de blog (pagination/related/rss/comentarios); render como páginas normales (h2/imgs/texto verificados). 0 líneas de fuente.
 - Report: `evidence/wu2.2-slice-home-about-report.md`.
 
+## WU2.5 slice community — COMPLETO. PR #19 (base wu2.2 per DAG).
+- 3 md → 3 URLs, 3/3 200, 0 excepciones. (typo `duties-and-rigths` preservado por parity).
+- Gates: ci-validate PASS (new 0) + check-images PASS (0 missing); extract de logs archivado.
+- Report: `evidence/wu2.5-slice-community-report.md`.
+
 ## Pending work units (DAG order)
 
 | WU | Title | Blocked by |
