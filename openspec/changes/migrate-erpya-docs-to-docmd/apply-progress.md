@@ -154,7 +154,16 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU2.4 | slice docs core (344 md) | WU2.2 |
+## WU2.4 slice docs core — COMPLETO. PR #18.
+- 344 md → 344 URLs: 343 direct 200 + 1 vía redirect generado (pilot pages re-citadas desde WU1.2).
+- **EXCEPCIÓN SUPERFICIADA Y FIXEADA — el único URL no-identity de toda la migración**: ` intercompany-process.md` (espacio al inicio, legado de fuente). docmd slugifica segments (dist source: espacios → hyphen) → URL nueva sin espacio. gen-redirects.mjs ahora modela slugifySegment en el lado `to` → manifest: 1,283 identity + **1 non-identity**; config map = 1 entrada (verificada end-to-end: %20 URL 200 → meta-refresh → nueva URL 200).
+- Gates: ci-validate PASS (new 0) + check-images PASS (0 missing); logs completos archivados (wu2.4-ci-validate.log / wu2.4-check-images.log).
+- Report: `evidence/wu2.4-slice-docs-core-report.md`.
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
 | WU2.5 | slice community (3 md) | WU2.2 |
 | WU2.6 | slice downloads BULK (844 md) + version trees | WU2.3, WU2.4, WU2.5 |
 | WU2.7 | final census + switcher 8 versions | WU2.6 |
