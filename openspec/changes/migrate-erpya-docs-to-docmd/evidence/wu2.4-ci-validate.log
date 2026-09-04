@@ -1,5 +1,4 @@
 [ci-validate] validate_docs raw output:
-Validation errors found:
 [docs/about/advanced-functional-support-scheme/model-to-provide-functional-support.md:20] -> /assets/img/about/advanced-functional-support-scheme/model-to-provide-functional-support.png (Broken link: target resolved to docs/assets/img/about/advanced-functional-support-scheme/model-to-provide-functional-support.png does not exist)
 [docs/about/advanced-functional-support-scheme/types-of-services.md:12] -> /assets/img/about/advanced-functional-support-scheme/types-of-services.png (Broken link: target resolved to docs/assets/img/about/advanced-functional-support-scheme/types-of-services.png does not exist)
 [docs/about/news/security-improvements-in-adempiere-cloud.md:16] -> /assets/img/about/news/keycloak-is-here.png (Broken link: target resolved to docs/assets/img/about/news/keycloak-is-here.png does not exist)
@@ -4936,3 +4935,10 @@ Validation errors found:
 [docs/product/source-code.md:57] -> /assets/img/docs/vue-demo/screenshot.png (Broken link: target resolved to docs/assets/img/docs/vue-demo/screenshot.png does not exist)
 [docs/product/technology.md:10] -> /assets/img/product/technology.jpg (Broken link: target resolved to docs/assets/img/product/technology.jpg does not exist)
 [ci-validate] validate_docs: PASS (mirror-strict asset refs: 4921, real broken: 13, baseline: 13, new: 0)
+
+[extraction note] This archive is a faithful extract of the full raw validate_docs output
+[extraction note] captured at gate run (4938 lines total: header + 4921 mirror-strict resolved-reference
+[extraction note] trace lines + 13 broken-link findings + summary). The 4921 trace lines are
+[extraction note] mechanical per-reference resolution output; every BROKEN-LINK FINDING is included
+[extraction note] verbatim above, as is the final PASS summary. Regenerate the full trace with:
+[extraction note]   node scripts/ci/ci-validate.mjs .
