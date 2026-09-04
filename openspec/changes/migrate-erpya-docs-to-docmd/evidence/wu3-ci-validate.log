@@ -1,0 +1,21 @@
+[ci-validate] validate_docs raw output:
+[docs/docs/balance-management/open-items/download.md:82] -> broken (Broken link: target resolved to docs/docs/balance-management/open-items/broken does not exist)
+[docs/docs/balance-management/open-items/download.md:86] -> broken (Broken link: target resolved to docs/docs/balance-management/open-items/broken does not exist)
+[docs/docs/balance-management/open-items/download.md:104] -> Banplus_Estado_de_cuenta.txt (Broken link: target resolved to docs/docs/balance-management/open-items/Banplus_Estado_de_cuenta.txt does not exist)
+[docs/docs/lve/procedures/treasury-management/upload-bank-statement-to-bank/banplus.md:17] -> PANTALLAS_SERVICIO_NOMINA_PLUS.ppt (Broken link: target resolved to docs/docs/lve/procedures/treasury-management/upload-bank-statement-to-bank/PANTALLAS_SERVICIO_NOMINA_PLUS.ppt does not exist)
+[docs/docs/lve/procedures/treasury-management/upload-bank-statement-to-bank/bnc.md:88] -> Banco_Nacional_de_Crdito_C.A_1000040.txt (Broken link: target resolved to docs/docs/lve/procedures/treasury-management/upload-bank-statement-to-bank/Banco_Nacional_de_Crdito_C.A_1000040.txt does not exist)
+[docs/docs/lve/procedures/treasury-management/upload-bank-statement-to-bank/bod.md:161] -> (http://erpya.com (Broken link: target resolved to docs/docs/lve/procedures/treasury-management/upload-bank-statement-to-bank/(http:/erpya.com does not exist)
+[docs/docs/lve/procedures/withholding-management/re-process-withholdings.md:53] -> withholding-iva.md/ (Broken link: target resolved to docs/docs/lve/procedures/withholding-management/withholding-iva.md does not exist)
+[docs/docs/lve/procedures/withholding-management/re-process-withholdings.md:53] -> withholding-islr.md/ (Broken link: target resolved to docs/docs/lve/procedures/withholding-management/withholding-islr.md does not exist)
+[docs/docs/lve/procedures/withholding-management/re-process-withholdings.md:53] -> withholding-municipality.md/ (Broken link: target resolved to docs/docs/lve/procedures/withholding-management/withholding-municipality.md does not exist)
+[docs/docs/master-data/index.md:26] -> store (Broken link: target resolved to docs/docs/master-data/store does not exist)
+[docs/docs/master-data/index.md:27] -> teacher-report (Broken link: target resolved to docs/docs/master-data/teacher-report does not exist)
+[docs/docs/other-process/intercompany-process/index.md:17] -> ./%20intercompany-process.md/ (Broken link: target resolved to docs/docs/other-process/intercompany-process/%20intercompany-process.md does not exist)
+[docs/downloads/updates/adempiere-3.9.4/erpya-3.9.4-001-3.x.x/erpya-3.9.4-001-3.8.x/index.md:18] -> erpya-3.9.4-001-3.8.5.md (Broken link: target resolved to docs/downloads/updates/adempiere-3.9.4/erpya-3.9.4-001-3.x.x/erpya-3.9.4-001-3.8.x/erpya-3.9.4-001-3.8.5.md does not exist)
+[docs/downloads/updates/rs-5.x/rs-52.x/rs-52.1.md:42] -> ttps://github.com/erpcya/Control-PROSEIN/issues/380 (Broken link: target resolved to docs/downloads/updates/rs-5.x/rs-52.x/ttps:/github.com/erpcya/Control-PROSEIN/issues/380 does not exist)
+[ci-validate] validate_docs: PASS (mirror-strict asset refs: 4921, real broken: 13, baseline: 13, new: 0)
+
+[extraction note] Faithful extract of the full raw validate_docs output.
+[extraction note] 4921 validator-strict mirror lines (non-blocking info) omitted as mechanical
+[extraction note] per-reference noise; the 14 real broken-link finding lines are included verbatim,
+[extraction note] as is the PASS summary. Regenerate: node scripts/ci/ci-validate.mjs .

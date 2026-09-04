@@ -185,4 +185,14 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |
+## WU3.1–WU3.4 cutover PREP — COMPLETO (parte implementable). PR #22 (base wu2.7).
+- **WU3.1**: CNAME (`docs.erpya.com`) + `url` swap en docmd.config.json + step de workflow que copia el CNAME al artifact (docmd 0.9.4 NO copia CNAME — verificado en dist).
+- **WU3.2**: crawl 20 URLs viejas (page/dir-index/downloads): **20/20** cumplen 200 ó 301→200 (log: wu3-crawl-log.md).
+- **WU3.3 (parte commit-level)**: llms.txt con 2,051 URLs absolutas `docs.erpya.com` (current + non-current); MCP 6/6; validate_docs PASS (new 0); check-images PASS (0 missing). Fetches de producción = owner post-DNS.
+- **WU3.4**: pin check R5 PASS (@docmd/core = 0.9.4 exacto). Decommission + DNS + verificación de producción = **owner** (orden rollback-safe documentado en el report y el PR).
+- Report: `evidence/wu3-cutover-report.md`.
+
+### ESTADO FINAL DEL CHANGE (apply)
+- **Phase 0** (PR #1–#9), **Phase 1** (PR #10–#14), **Phase 2** (PR #15–#21) completas y asentadas en el ledger.
+- **Phase 3** preparada (PR #22); lo que queda = acciones owner: merge de la cadena, DNS, verificación de producción, decommission.
+- sdd-verify + sdd-archive: pendientes post-merge (gates parent-owned).
