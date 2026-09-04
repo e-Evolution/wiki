@@ -1,0 +1,9 @@
+name: hello-diag
+on:
+  push:
+    branches: [main]
+jobs:
+  hi:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "actions work"
