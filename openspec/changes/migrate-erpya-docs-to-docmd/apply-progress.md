@@ -111,6 +111,15 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU1.4 | OQ2 build-time benchmark | WU1.3 |
+## WU1.4 OQ2 build-time benchmark — COMPLETO (DECISIÓN: GO). PR #13.
+- Pipeline completo sobre el pilot commit c515b35 (secuencia exacta de build-benchmark.yml): clone cold 10.8s + npm ci 1.2s + build 8.4s (2,051p) = **20.4s total (0.34 min)**.
+- Restricción documentada: workflow_dispatch solo resuelve workflows en la rama por defecto; build-benchmark.yml llega a main con la cadena de PRs pendiente de review. Medición equivalente corrida sobre el commit piloto.
+- **DECISIÓN: GO** (≪ 20 min; ladder C7 documentada y sin disparar). Slot OQ2 de measurements.md completado. Report: `evidence/wu1.4-oq2-report.md`.
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
+| WU1.5 | Pilot AI verification (llms + MCP) | WU1.2, WU1.3 |
 | WU2.1–WU2.7 | Phase 2 rollout (business-partner.md gate FIRST, module slices, final census) | WU1.5 |
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |
