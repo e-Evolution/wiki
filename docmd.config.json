@@ -2,36 +2,36 @@
   "title": "ERpya Docs",
   "url": "https://e-evolution.github.io/wiki",
   "versions": {
-    "current": "rs5x",
+    "current": "rs-5.x",
     "position": "sidebar-top",
     "all": [
       {
-        "id": "rs5x",
+        "id": "rs-5.x",
         "dir": "docs",
         "label": "RS 5.x (current)"
       },
       {
-        "id": "rs4x",
+        "id": "rs-4.x",
         "dir": "docs-rs4x",
         "label": "RS 4.x"
       },
       {
-        "id": "rs3x",
+        "id": "rs-3.x",
         "dir": "docs-rs3x",
         "label": "RS 3.x"
       },
       {
-        "id": "rs2x",
+        "id": "rs-2.x",
         "dir": "docs-rs2x",
         "label": "RS 2.x"
       },
       {
-        "id": "rs1x",
+        "id": "rs-1.x",
         "dir": "docs-rs1x",
         "label": "RS 1.x"
       },
       {
-        "id": "adm394",
+        "id": "ad-3.9.4",
         "dir": "docs-adm394",
         "label": "ADempiere 3.9.4"
       },

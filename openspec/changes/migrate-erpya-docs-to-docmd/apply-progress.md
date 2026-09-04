@@ -101,6 +101,16 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 
 | WU | Title | Blocked by |
 |---|---|---|
-| WU1.3 | OQ1 experiment dotted-ids (2 versiones) | WU1.2 |
+## WU1.3 OQ1 dotted-id experiment — COMPLETO (DECISIÓN: ADOPT). PR #12.
+- Experimento design §6 (2 versiones, ids dotted, dirs sanitized): build exit 0 (1,396p), URLs dotted 200 (incl. anidado rs-35.x/rs-35.4), switcher round-trip verificado en ambas direcciones.
+- **DECISIÓN: ADOPT dotted ids** (slot OQ1 de measurements.md completado). Config final 8-versiones: rs-5.x…rs-1.x + ad-3.9.4 dotted; tes/devices sin forma dotted (ids sanitized). Post-adopción: build exit 0 (2,051p), 200 en las 7 raíces de versión, switcher 8 items con hrefs dotted.
+- Sin cambios de contenido (dirs sanitized, D2); per-version navs usan rutas relativas al root de versión (sin ids) → sin regenerar. Redirect map WU0.7 inafectado (URLs de versión son nuevas, no existen en el sitio viejo).
+- Report: `evidence/wu1.3-oq1-report.md`.
+
+## Pending work units (DAG order)
+
+| WU | Title | Blocked by |
+|---|---|---|
+| WU1.4 | OQ2 build-time benchmark | WU1.3 |
 | WU2.1–WU2.7 | Phase 2 rollout (business-partner.md gate FIRST, module slices, final census) | WU1.5 |
 | WU3.1–WU3.4 | Phase 3 cutover (CNAME + url, 20-URL crawl, prod AI verify, decommission) | WU2.7 |
