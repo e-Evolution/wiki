@@ -245,3 +245,10 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
   - Estado DNS verificado 2026-09-05: `docs.adeos.business` aún no existe (registro a CREAR); el apex `adeos.business` resuelve (zona viva).
   - Procedimiento de flip (orden fijo, idem nota del workflow): 1) re-add `CNAME` = `docs.adeos.business`, 2) `docmd.config.json` url → `https://docs.adeos.business`, 3) crear CNAME DNS `docs.adeos.business` → `e-evolution.github.io` (o las 4 A-records 185.199.108/109/110/111.153).
   - Los 1,086 redirects usan targets relativos (base-independent): el mismo build anda en el subpath, en `docs.adeos.business` y en cualquier futuro dominio, sin regenerar.
+
+### Rebrand dominio (owner, 2026-09-05) — commit c7585d8
+- `erpya.com` → `adeos.business` en todo el contenido user-facing: 125 archivos (docs/ + 7 version trees), 225 ocurrencias (erpya.com 129 —incl. info@erpya.com→info@adeos.business—, docs.erpya.com 74, project 12, www 5, helpdesk 3, demo 2).
+- **Conservado (no es marca, es hecho histórico)**: provenance en docs/product/source-code.md ("el sitio fuente (docs.erpya.com)"), toda la trazabilidad SDD (openspec/, redirects-manifest.md, oracle, notas del workflow) y nombres de producto/versión (erpya-3.9.4-*).
+- Baseline de broken-links actualizada a la par (la entrada `http://erpya.com` → `http://adeos.business`); gate green (real 13 / baseline 13 / new 0).
+- **Ventana de transición documentada**: los ~74 self-links absolutos ahora apuntan a `docs.adeos.business`, que solo resuelve **después del flip** (procedimiento documentado arriba); hasta entonces 404. Post-flip, los de forma .html resuelven vía los stubs de redirect (el meta-refresh descarta anclas #fragment, ~40 links). Los mailboxes @adeos.business deben existir. project/helpdesk.erpya.com ya eran NXDOMAIN antes del rebrand (sin regresión).
+- Verificado en producción (deploy 33945666820): legal con info@adeos.business, 0 erpya.com en contenido (el único residual por página es el commit message mostrado en el footer, efímero), sitemap/llms 2,051, páginas 200, redirects .html OK.
