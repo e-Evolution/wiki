@@ -45,3 +45,29 @@
 - `judgment-day` protocol: /Users/e-Evolution/.agents/skills/judgment-day/SKILL.md (+ references/prompts-and-formats.md) — parent
 - Paths injected to both judges: /Users/e-Evolution/.agents/skills/cognitive-doc-design/SKILL.md
 - Result: paths-injected
+
+## Re-judgment (scoped: frozen ledger + fix delta bdd011b only)
+
+- **Fix delta**: commit `bdd011b` (1,086 redirects with RELATIVE targets + oracle + manifest rewrite), deployed (run 33936968461). Fix round-1 had a v1→v2 correction: v1 emitted root-absolute targets (404 at subpath — parent-caught on the already-deployed %20 stub); v2 uses docmd's own relative-target convention (base-independent: subpath now, custom-domain root later, no regeneration at flip).
+- **jd-judge-a**: zero findings. F1: resolved (10/10 .html 200 + all 10 meta-refresh targets resolve 200). F5: resolved. No regressions (pages 200; sitemap/llms 2,051, 0 .html indexed; local 2,052; ci-validate PASS 13/13/0). No fix-caused defects (config: only `redirects` changed; generator assertions verified).
+- **jd-judge-b**: one MINOR (info-tier): manifest lines 40/78/102 still describe PRE-fix behavior — the fix made the site better than documented (see below). F1: resolved (11/11 sample + 3 E2E chains; oracle cross-check: 0 missing, 0 wrong, all 1,086 `to` resolve to built pages). F5: resolved. No regressions; no fix-caused functional defects.
+- **Parent verification of the B-MINOR claims (all deterministic, 2026-09-05)**: (1) %20 no-slash now **200 direct** (meta-refresh stub via GitHub Pages .html-extension guessing) — the raw-space 301 edge is GONE, i.e. **F2 is resolved by the fix**, not merely accepted; (2) %20 trailing-slash = 200, 0 redirects (1 hop, not the documented 2); (3) leaf no-slash in general = **200 direct** via the same .html guessing (e.g. /community/code-of-conduct → stub `url=code-of-conduct/`); dir-index no-slash keeps its 301→slash as expected. Residual = documentation-only: 3 stale manifest lines (generator template) to align with post-fix measurements.
+
+## Terminal verdict
+
+```yaml
+target_identity: repo main 5472c9f (original freeze) -> 056fef7 (ledger) -> bdd011b (fix); live https://e-evolution.github.io/wiki/ (deploy run 33936968461); old reference docs.erpya.com @ erpcya/docs eb33612
+round: 1 fix round (v1+v2, one correction transaction) + 1 scoped re-judgment (budget: 2/2 fix rounds, 2/2 re-judgments)
+confirmed: [F1 MAJOR .html class dead (1,085 URLs), F5 MAJOR manifest identity wrong]
+suspect: [F2 MINOR %20 raw-space 301 (RESOLVED by fix - Pages .html guessing), F3 home cards (owner-deferred product decision), F4 blog aggregate views (owner-deferred product decision)]
+contradictions: []
+info: [manifest lines 40/78/102 stale pre-fix wording (B-MINOR, doc-only), llms 2,051 OK, 7 version trees OK, assets OK, build/gates OK, 13 baseline parity, MCP = local stdio by design]
+fix_work_units: [WU-JD-1 .html-class redirects (1,086 relative-target entries, oracle committed), WU-JD-2 manifest D5 rewrite with measured semantics]
+scoped_rejudgment: approved (A: zero findings; B: one MINOR doc-only)
+terminal_state: approved
+skill_resolution: paths-injected (judgment-day SKILL.md + prompts-and-formats.md parent; cognitive-doc-design.md both judges + fix actor)
+```
+
+**JUDGMENT: APPROVED ✅**
+
+Open (non-blocking, owner-owned): F3 home cards + F4 blog aggregate views (explicitly deferred at the decision gate — theme-hope presentation, content fully migrated under /downloads/updates/); 3 stale manifest wording lines (generator template follow-up).
