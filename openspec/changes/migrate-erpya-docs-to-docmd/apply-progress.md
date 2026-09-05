@@ -238,3 +238,10 @@ Artifact store: openspec (repo-local). Delivery: stacked-to-main, remote e-Evolu
 - **Por qué no regenerar en el flip**: los stubs son base-independent — los mismos bytes resuelven en el subpath actual y en el dominio custom futuro (root); el flip no requiere regenerar el map. Declarado en `redirects-manifest.md` (URL-form contract + nota round-1 v2).
 - **Sin cambios**: sitemap `<loc>` = 2,051; llms.txt = 2,051 URLs; gates ci-validate PASS (real 13 = baseline 13, new 0), check-images PASS (0 missing); idempotencia del generador re-verificada (`git diff --stat` sin cambios tras re-run). El edge F2 (301 no-slash con espacio crudo en `Location`) es comportamiento de GitHub Pages sobre el directorio y NO se ve afectado por esta fijación.
 
+
+### Custom domain target (owner, 2026-09-05)
+- El custom domain del sitio nuevo será **`docs.adeos.business`** (no `docs.erpya.com`).
+  - `docs.erpya.com` queda en el sitio viejo (VuePress) y NO es reclamado por este repo.
+  - Estado DNS verificado 2026-09-05: `docs.adeos.business` aún no existe (registro a CREAR); el apex `adeos.business` resuelve (zona viva).
+  - Procedimiento de flip (orden fijo, idem nota del workflow): 1) re-add `CNAME` = `docs.adeos.business`, 2) `docmd.config.json` url → `https://docs.adeos.business`, 3) crear CNAME DNS `docs.adeos.business` → `e-evolution.github.io` (o las 4 A-records 185.199.108/109/110/111.153).
+  - Los 1,086 redirects usan targets relativos (base-independent): el mismo build anda en el subpath, en `docs.adeos.business` y en cualquier futuro dominio, sin regenerar.

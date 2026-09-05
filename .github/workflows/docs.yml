@@ -50,11 +50,14 @@ jobs:
         id: docmd-deploy
       # docmd 0.9.4 does not copy a CNAME into the build output; GitHub Pages
       # reads it from the artifact root. Cutover commit (WU3.1).
-      # NOTE (2026-09-04): the site is published on the subpath
-      # e-evolution.github.io/wiki for now (owner decision); the CNAME file is
-      # therefore absent from the repo and this step is a no-op. To enable the
-      # custom domain later: re-add CNAME (docs.erpya.com) + flip config url +
-      # flip the DNS CNAME, in that order.
+      # NOTE (2026-09-04, updated 2026-09-05): the site is published on the
+      # subpath e-evolution.github.io/wiki for now (owner decision); the CNAME
+      # file is therefore absent from the repo and this step is a no-op. The
+      # eventual custom domain is docs.adeos.business (owner, 2026-09-05);
+      # docs.erpya.com stays on the old VuePress site and is not claimed here.
+      # To enable the custom domain later, in that order: re-add CNAME
+      # (docs.adeos.business) + flip config url + create the DNS CNAME
+      # docs.adeos.business -> e-evolution.github.io.
       - name: Add CNAME to Pages artifact
         if: hashFiles('CNAME') != ''
         run: cp CNAME "${{ steps.docmd-deploy.outputs.site-dir }}/CNAME"
