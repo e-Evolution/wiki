@@ -20,7 +20,7 @@ Cualquier problema relacionado con las implementaciones de E.R.P. Consultores y 
 
 ### Se aplicarán actualizaciones de ADempiere
 
-Dado que constantemente E.R.P. Consultores y Asociados, C.A. se encuentra generando mejoras y actualizaciones a sus aplicaciones, dentro de este servicio se encuentra la instalación de las actualizaciones. Para una referencia de las notas de liberación de ERPyA puede consultar el siguiente [enlace](https://docs.erpya.com/downloads/updates/).
+Dado que constantemente E.R.P. Consultores y Asociados, C.A. se encuentra generando mejoras y actualizaciones a sus aplicaciones, dentro de este servicio se encuentra la instalación de las actualizaciones. Para una referencia de las notas de liberación de ERPyA puede consultar el siguiente [enlace](https://docs.adeos.business/downloads/updates/).
 
 ### Se aplicarán cambios establecidos en la ley para la localización Venezuela
 

@@ -42,7 +42,7 @@ Se requiere importar los proveedores de la empresa. Se debe suministrar en la pl
 ## Entregable
 
 - Reporte en Adempiere con los elementos importados
-- Un instructivo para futura referencia en la plataforma [ERP Docs](https://docs.erpya.com/)
+- Un instructivo para futura referencia en la plataforma [ERP Docs](https://docs.adeos.business/)
 
 ## Condiciones del Servicio
 

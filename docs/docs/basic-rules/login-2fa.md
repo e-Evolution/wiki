@@ -58,6 +58,6 @@ Vuelve a buscar la extensión.
 
 ![Seleccionar Extensión](https://github.com/erpcya/docs/assets/134967453/8ddbd759-b4e9-4b74-a79a-cac06f779ca4)
 
-Copia el código en Keycloak y realiza el paso de [Modificar contraseña](http://docs.erpya.com/docs/basic-rules/login-keycloak.html#modificar-la-contrasena)
+Copia el código en Keycloak y realiza el paso de [Modificar contraseña](http://docs.adeos.business/docs/basic-rules/login-keycloak.html#modificar-la-contrasena)
 
 ![image](https://github.com/erpcya/docs/assets/134967453/c45577eb-dba2-496e-8224-b262750dd468)

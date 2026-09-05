@@ -30,4 +30,4 @@ Tenemos muchas formas de descargar ADempiere, puede usar la forma que más le co
 
 [**Liberaciones de Github**](https://github.com/erpya/zk-ui/releases) es el centro de muchas aplicaciones de código abierto y permite compartir código fuente, lanzamientos; Realice acciones para construir proyectos automáticamente. Tenemos todos los repositorios de la comunidad ADempiere sobre él. Ver más al respecto [aquí](binary.md).
 
-**Liberaciones de ERPyA** son todas las versiones soportadas por [E.R.P. Consultores y Asociados, C.A](https://erpya.com/). Ver más al respecto [aquí](./updates/).
+**Liberaciones de ERPyA** son todas las versiones soportadas por [E.R.P. Consultores y Asociados, C.A](https://adeos.business/). Ver más al respecto [aquí](./updates/).

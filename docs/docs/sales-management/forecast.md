@@ -29,7 +29,7 @@ ID Pronóstico | Código Organización | Código Producto | Código Almacén | C
 1000011 | Org-Adm | PT1100003 | A0001 | 2000 | 15/05/2024 |  
 1000011 | Org-Adm | PT1100004 | A0001 | 1578 | 15/05/2024 |  
 
-Para cargar el pronóstico con el segundo caso, puede realizar lo indicado en el procedimiento [Crear Pronóstico de Ventas Manual](https://docs.erpya.com/docs/sales-management/forecast.html#crear-pronostico-de-ventas-manual)
+Para cargar el pronóstico con el segundo caso, puede realizar lo indicado en el procedimiento [Crear Pronóstico de Ventas Manual](https://docs.adeos.business/docs/sales-management/forecast.html#crear-pronostico-de-ventas-manual)
 
 ## Crear Encabezado o Pestaña Principal de la Ventana Pronóstico de Ventas
 
@@ -203,7 +203,7 @@ Para cargar el pronóstico con el segundo caso, puede realizar lo indicado en el
   
 ## Crear Pronóstico de Ventas Manual
 
-- Crear el encabezado el pronóstico siguiendo el procedimiento explicado en [Crear Encabezado o Pestaña Principal de la Ventana Pronóstico de Ventas](https://docs.erpya.com/docs/sales-management/forecast.html#crear-encabezado-o-pestana-principal-de-la-ventana-pronostico-de-ventas)
+- Crear el encabezado el pronóstico siguiendo el procedimiento explicado en [Crear Encabezado o Pestaña Principal de la Ventana Pronóstico de Ventas](https://docs.adeos.business/docs/sales-management/forecast.html#crear-encabezado-o-pestana-principal-de-la-ventana-pronostico-de-ventas)
 
   ![image](https://github.com/erpcya/docs/assets/52334433/eac28ced-45e5-4756-8c3f-e194e5332311)
 

@@ -12,7 +12,7 @@ article: false
 **Banco Fondo Común**
 =====================
 
-Para la exportación de los archivos desde ADempiere al banco fondo común, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde ADempiere al banco fondo común, [ERPyA](http://adeos.business) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con el documento [Intructivo TXT Proveedores](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/bfc/Instructivo_TXT_Proveedores_BFC.pdf), que explica el formato que sirven de ayuda para la construcción el archivo a cargar.
 

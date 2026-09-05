@@ -5,7 +5,7 @@ star: 9
 article: false
 ---
 
-Documentación validada por [**ERPCyA**](https://erpya.com/) para incrementar tamaños de caracteres por línea en la HKA-80
+Documentación validada por [**ERPCyA**](https://adeos.business/) para incrementar tamaños de caracteres por línea en la HKA-80
 
 ![Descripción](/assets/img/docs/fiscal-printer/fiscal-printer-hka80.png)
 

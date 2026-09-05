@@ -52,18 +52,18 @@ Si no tiene configurada ninguna firma configurada tomará por defecto el siguien
 En Inglés:
 
 ```
-Sent by @AD_Client.Name@ using <a href=\"https://www.erpya.com\">ADempiere ERP</a>
+Sent by @AD_Client.Name@ using <a href=\"https://www.adeos.business\">ADempiere ERP</a>
 ```
 
 En Español:
 
 ```
-Sent by @AD_Client.Name@ using <a href=\"https://www.erpya.com\">ADempiere ERP</a>
+Sent by @AD_Client.Name@ using <a href=\"https://www.adeos.business\">ADempiere ERP</a>
 ```
 
 ## Corrección de Parámetros en Reportes
 
-Se corrige problema con los valores a visualizar en los parámetros de reportes ejecutados desde un programador de procesos, esto se encuentra reportado en la sección [**Enlaces relacionados**](https://docs.erpya.com/downloads/updates/adempiere-3.9.4/erpya-3.9.4-001-1.6.x/erpya-3.9.4-001-1.6.1.html#enlaces-relacionados)
+Se corrige problema con los valores a visualizar en los parámetros de reportes ejecutados desde un programador de procesos, esto se encuentra reportado en la sección [**Enlaces relacionados**](https://docs.adeos.business/downloads/updates/adempiere-3.9.4/erpya-3.9.4-001-1.6.x/erpya-3.9.4-001-1.6.1.html#enlaces-relacionados)
 
 ## Corrección de Lógica contable de diferencias contables inter-compañia
 

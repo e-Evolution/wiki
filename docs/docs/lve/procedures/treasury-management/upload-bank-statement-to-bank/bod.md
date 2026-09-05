@@ -12,7 +12,7 @@ article: false
 **Banco Occidental de Descuento**
 =================================
 
-Para la exportación de los archivos desde ADempiere al banco occidental de descuento, [ERPyA](http://erpya.com) soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento [Formato Archivo Ordenes de Pago](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/bod/EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm), explica el formato que sirve de ayuda para la construcción de los archivos a cargar.
+Para la exportación de los archivos desde ADempiere al banco occidental de descuento, [ERPyA](http://adeos.business) soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento [Formato Archivo Ordenes de Pago](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/bod/EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm), explica el formato que sirve de ayuda para la construcción de los archivos a cargar.
 
 Adicional a ello, se puede visualizar dicho documento de la siguiente manera, luego de descargarlo.
 
@@ -158,7 +158,7 @@ La descripción del archivo anteriormente generado por el pago, se encuentra exp
 
 **BOD NÓNIMA**
 
-[ERPyA]((http://erpya.com)) agrega soporte al siguiente formato de nómina facilitado por el banco, dicha actualización fue liberada en la versión [23.7](https://docs.erpya.com/downloads/updates/rs-2.x/rs-23.x/rs-23.7.html) de ADempiere. Para mayor información de la misma, puede consultar la nota de liberación indicada anteriormente.
+[ERPyA]((http://adeos.business)) agrega soporte al siguiente formato de nómina facilitado por el banco, dicha actualización fue liberada en la versión [23.7](https://docs.adeos.business/downloads/updates/rs-2.x/rs-23.x/rs-23.7.html) de ADempiere. Para mayor información de la misma, puede consultar la nota de liberación indicada anteriormente.
 
 **Formato Archivo Beneficiarios de Pago (Del Cliente al Banco)**
 

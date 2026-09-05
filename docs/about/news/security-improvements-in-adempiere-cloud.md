@@ -69,7 +69,7 @@ El uso de las nuevas funcionalidades de seguridad es opcional. Sin embargo, le r
 
 Para obtener más información sobre las mejoras de seguridad en ADempiere Cloud, consulte la siguiente documentación:
 
-- Documentación de ADempiere Cloud: https://docs.erpya.com/
+- Documentación de ADempiere Cloud: https://docs.adeos.business/
 
 **Recursos adicionales**:
 
@@ -86,9 +86,9 @@ Si tiene alguna pregunta sobre las mejoras de seguridad en ADempiere Cloud, no d
 
 ### Detalles
 
-- Esto se encuentra disponible a partir de la versión: [erpya-3.9.4-001-1.3.4](https://docs.erpya.com/downloads/updates/adempiere-3.9.4/erpya-3.9.4-001-1.3.x/erpya-3.9.4-001-1.3.4.html#novedades)
+- Esto se encuentra disponible a partir de la versión: [erpya-3.9.4-001-1.3.4](https://docs.adeos.business/downloads/updates/adempiere-3.9.4/erpya-3.9.4-001-1.3.x/erpya-3.9.4-001-1.3.4.html#novedades)
 
 - Para realizar las debidas configuraciones puede ver los siguientes artículos:
 
-  - [Acceso Seguro con Keycloak](https://docs.erpya.com/docs/basic-rules/login-keycloak.html)
-  - [Keycloak 2FA](https://docs.erpya.com/docs/basic-rules/login-2fa.html)
+  - [Acceso Seguro con Keycloak](https://docs.adeos.business/docs/basic-rules/login-keycloak.html)
+  - [Keycloak 2FA](https://docs.adeos.business/docs/basic-rules/login-2fa.html)

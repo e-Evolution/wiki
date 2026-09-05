@@ -9,7 +9,7 @@ tag:
 article: false
 ---
 
-Para la exportación de los archivos desde ADempiere al banco provincial, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde ADempiere al banco provincial, [ERPyA](http://adeos.business) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con los documentos [Archivo de Pago a Proveedores](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/provincial/DR_Abonos.pdf) y [Archivo de Pago de Nómina](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/provincial/DR_Afiliacion_RRHH.pdf), [Archivo de Configuración](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/provincial/provincial_conf.docx), que explican los formatos para la construcción del archivo a cargar.
 

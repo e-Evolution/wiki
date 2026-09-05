@@ -12,7 +12,7 @@ article: false
 **Reporte de Nómina en ADempiere**
 ==================================
 
-El presente material elaborado por [ERPyA](http://erpya.com) pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los reportes de nómina en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por [ERPyA](http://adeos.business) pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar los reportes de nómina en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 Los reportes de nómina nos ayudan a visualizar los cálculos que se  realizan  dentro de los procesos de nómina ejecutados a nuestros empleados, detallando el resultado final de cualquier monto que necesitamos conocer dentro de las nóminas
 

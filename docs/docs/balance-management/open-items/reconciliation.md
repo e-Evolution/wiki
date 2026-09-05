@@ -13,21 +13,21 @@ ADempiere cuenta con un proceso de conciliaciones automáticas el cual permite d
 
 Una conciliación automática es un proceso que se realiza con la finalidad de garantizar los saldos de las cuentas por cobrar y las cuentas por pagar que posee una empresa, el mismo compara la información del estado de cuenta real del banco con los registros y movimientos bancarios existentes en ADempiere para corroborar que ambos coincidan y no existan errores en los saldos bancarios y en la contabilidad de la empresa.
 
-**[ERPyA](http://erpya.com/)** pretende ofrecer una explicación eficiente a nuestros clientes del procedimiento de conciliación automática a través de una guía fácil y sencilla para así obtener resultados exitosos al momento de generar una conciliación en la versión 3.9.2 de ADempiere en la localización Venezuela. A continuación se explica el procedimiento que se debe realizar para generar una conciliación bancaria de manera automática en ADempiere.
+**[ERPyA](http://adeos.business/)** pretende ofrecer una explicación eficiente a nuestros clientes del procedimiento de conciliación automática a través de una guía fácil y sencilla para así obtener resultados exitosos al momento de generar una conciliación en la versión 3.9.2 de ADempiere en la localización Venezuela. A continuación se explica el procedimiento que se debe realizar para generar una conciliación bancaria de manera automática en ADempiere.
 
 - [Descarga de Extracto Bancario desde Banco](download.md)
 
 - [Registro de Conciliación Automática](./automatic-conciliations.md)
-  - [Importación de Extracto Bancario](https://docs.erpya.com/docs/balance-management/open-items/automatic-conciliations.html#importacion-de-extracto-bancario)
-  - [Conciliación Automática](https://docs.erpya.com/docs/balance-management/open-items/automatic-conciliations.html#importacion-de-extracto-bancario)
-  - [Coincidencia Bancarias](https://docs.erpya.com/docs/balance-management/open-items/automatic-conciliations.html#coincidencia-bancarias)
-  - [Revisión de Conciliaciones](http://docs.erpya.com/docs/balance-management/open-items/automatic-conciliations.html#revision-de-conciliaciones)
-  - [Crear Pagos Desde Línea de Estado de Cuenta](http://docs.erpya.com/docs/balance-management/open-items/automatic-conciliations.html#crear-pagos-desde-linea-de-estado-de-cuenta)
+  - [Importación de Extracto Bancario](https://docs.adeos.business/docs/balance-management/open-items/automatic-conciliations.html#importacion-de-extracto-bancario)
+  - [Conciliación Automática](https://docs.adeos.business/docs/balance-management/open-items/automatic-conciliations.html#importacion-de-extracto-bancario)
+  - [Coincidencia Bancarias](https://docs.adeos.business/docs/balance-management/open-items/automatic-conciliations.html#coincidencia-bancarias)
+  - [Revisión de Conciliaciones](http://docs.adeos.business/docs/balance-management/open-items/automatic-conciliations.html#revision-de-conciliaciones)
+  - [Crear Pagos Desde Línea de Estado de Cuenta](http://docs.adeos.business/docs/balance-management/open-items/automatic-conciliations.html#crear-pagos-desde-linea-de-estado-de-cuenta)
 
 - [Crear Pagos desde Estado de Cuenta](create-payments-from-account-statement.md)
 
-- [Pagos/Cobros sin Registros](http://docs.erpya.com/docs/balance-management/open-items/create-payments-from-account-statement.html#pagos-cobros-sin-registros)
-  - [Pagos o Cobros de Comisiones](http://docs.erpya.com/docs/balance-management/open-items/create-payments-from-account-statement.html#pagos-o-cobros-de-comisiones)
-  - [Otros Tipos de Pagos o Cobros](http://docs.erpya.com/docs/balance-management/open-items/create-payments-from-account-statement.html#otros-tipos-de-pagos-o-cobros)
-  - [Pagos o Cobros sin Identificar](http://docs.erpya.com/docs/balance-management/open-items/create-payments-from-account-statement.html#pagos-o-cobros-sin-identificar)
-  - [Completar Conciliación Bancaria](http://docs.erpya.com/docs/balance-management/open-items/create-payments-from-account-statement.html#completar-conciliacion-bancaria)
+- [Pagos/Cobros sin Registros](http://docs.adeos.business/docs/balance-management/open-items/create-payments-from-account-statement.html#pagos-cobros-sin-registros)
+  - [Pagos o Cobros de Comisiones](http://docs.adeos.business/docs/balance-management/open-items/create-payments-from-account-statement.html#pagos-o-cobros-de-comisiones)
+  - [Otros Tipos de Pagos o Cobros](http://docs.adeos.business/docs/balance-management/open-items/create-payments-from-account-statement.html#otros-tipos-de-pagos-o-cobros)
+  - [Pagos o Cobros sin Identificar](http://docs.adeos.business/docs/balance-management/open-items/create-payments-from-account-statement.html#pagos-o-cobros-sin-identificar)
+  - [Completar Conciliación Bancaria](http://docs.adeos.business/docs/balance-management/open-items/create-payments-from-account-statement.html#completar-conciliacion-bancaria)

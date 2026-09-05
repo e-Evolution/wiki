@@ -24,7 +24,7 @@ Se requiere añadir a la ventana de cobro el % de impuesto.
 
 - Ventana con las adecuaciones solicitadas
 - Capacitación sobre el uso de la nueva ventana
-- Un instructivo para futura referencia en la plataforma [ERP Docs](https://docs.erpya.com)
+- Un instructivo para futura referencia en la plataforma [ERP Docs](https://docs.adeos.business)
 
 ## Condiciones del Servicio
 

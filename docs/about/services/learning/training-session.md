@@ -30,7 +30,7 @@ Se requiere una capacitación sobre el proceso de requisición a compras para el
 
 - Un documento donde especifica el resumen del contenido de la capacitación
 - Un video con la grabación en caso de ser remoto
-- Referencias a la documentación principal de [ERPyA](https://docs.erpya.com/)
+- Referencias a la documentación principal de [ERPyA](https://docs.adeos.business/)
 
 ## Condiciones del Servicio
 

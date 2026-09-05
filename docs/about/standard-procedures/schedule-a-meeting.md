@@ -21,17 +21,17 @@ Las reuniones deben tomarse como una herramienta para aclarar cualquier duda rel
 
 ## ¿Cuál es el medio para agendar una reunión?
 
-[ERPyA](http://erpya.com/) tiene distintos medios de comunicación entre los cuales se encuentran:
+[ERPyA](http://adeos.business/) tiene distintos medios de comunicación entre los cuales se encuentran:
 
 [Slack](https://erpya.slack.com/): Es un chat dinámico que permite la integración con distintas herramientas corporativas (sin guardar historia de conversación pasada una semana).
 
-[OpenProject](http://project.erpya.com/): Utilizado con el fin de llevar el control de cada una de las solicitudes de los clientes así como sus vencimientos y estados.
+[OpenProject](http://project.adeos.business/): Utilizado con el fin de llevar el control de cada una de las solicitudes de los clientes así como sus vencimientos y estados.
 
-[OSTicket](http://helpdesk.erpya.com/): Usado como plataforma de tickets con la cual el cliente puede ver el historial de sus solicitudes y su solución.
+[OSTicket](http://helpdesk.adeos.business/): Usado como plataforma de tickets con la cual el cliente puede ver el historial de sus solicitudes y su solución.
 
 Correo: Utilizado muchas veces cuando el cliente no tiene acceso a Slack o a la plataforma de Tickets.
 
-A pesar de las múltiples herramientas que posee [ERPyA](http://erpya.com/) siempre se debe utilizar el [OpenProject](http://project.erpya.com/) para agendar una reunión, si desconoce la forma para crear una reunión puede ver el siguiente gif
+A pesar de las múltiples herramientas que posee [ERPyA](http://adeos.business/) siempre se debe utilizar el [OpenProject](http://project.adeos.business/) para agendar una reunión, si desconoce la forma para crear una reunión puede ver el siguiente gif
 
 ![crear-reunión](/assets/img/about/standard-procedures/create-new-meeting-open-project.gif)
 
@@ -41,7 +41,7 @@ Si desea enviar una notificación por correo desde la agenda lo puede hacer pres
 
 ## ¿De qué manera se debe agendar una reunión?
 
-Normalmente las conversaciones entre [ERPyA](http://erpya.com/) y los clientes es a través de [Slack](https://erpya.slack.com/) o por teléfono. De cualquier manera para que pueda existir una reunión se debe seguir el siguiente procedimiento:
+Normalmente las conversaciones entre [ERPyA](http://adeos.business/) y los clientes es a través de [Slack](https://erpya.slack.com/) o por teléfono. De cualquier manera para que pueda existir una reunión se debe seguir el siguiente procedimiento:
 
 - Convocar la reunión a través de [Slack](https://erpya.slack.com/), Correo o por teléfono.
 
@@ -49,9 +49,9 @@ Normalmente las conversaciones entre [ERPyA](http://erpya.com/) y los clientes e
 
 - Confirmar la reunión: Antes de cualquier otro paso se debe confirmar la asistencia a la reunión, **si no existe confirmación entonces no existirá reunión**.
 
-- Crear la reunión en [OpenProject](http://project.erpya.com/): **Es muy importante que se defina bien la hora, los participantes y la agenda para el día de la reunión**.
+- Crear la reunión en [OpenProject](http://project.adeos.business/): **Es muy importante que se defina bien la hora, los participantes y la agenda para el día de la reunión**.
 
-- Después de crear la reunión se debe compartir el URL generado de la misma (el URL del ejemplo es este: [http://project.erpya.com/meetings/22](http://project.erpya.com/meetings/22))
+- Después de crear la reunión se debe compartir el URL generado de la misma (el URL del ejemplo es este: [http://project.adeos.business/meetings/22](http://project.adeos.business/meetings/22))
 
 - Ya con el URL compartido ambos deben confirmar la asistencia a la misma.
 
@@ -79,6 +79,6 @@ Por norma, las reuniones deben durar 15 minutos.
 
 - No traigas ordenadores ni teléfonos.
 
-Para el caso de [ERPyA](http://erpya.com/) es conveniente que las reuniones no excedan los 45 minutos, las reuniones extensas solo crean cansancio y en lugar de ayudar a avanzar solo generan un ambiente que no ayuda a la toma de decisiones.
+Para el caso de [ERPyA](http://adeos.business/) es conveniente que las reuniones no excedan los 45 minutos, las reuniones extensas solo crean cansancio y en lugar de ayudar a avanzar solo generan un ambiente que no ayuda a la toma de decisiones.
 
 **Como escriben los autores de Reinicia, "cada minuto que evitas pasar en una reunión es un minuto en el que puedes hacer trabajo de verdad. O, mejor, en irte a casa a tu hora."**

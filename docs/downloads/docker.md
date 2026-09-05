@@ -12,7 +12,7 @@ article: false
 
 ## Imágenes Oficiales
 
-Todas las imágenes oficiales de [ERPyA](https://erpya.com/) se encuentran [aquí](https://hub.docker.com/u/erpya). Invertimos muchas horas y recursos en hacer que nuestra infraestructura sea de clase mundial. No elegimos el camino fácil, sino el camino correcto.
+Todas las imágenes oficiales de [ERPyA](https://adeos.business/) se encuentran [aquí](https://hub.docker.com/u/erpya). Invertimos muchas horas y recursos en hacer que nuestra infraestructura sea de clase mundial. No elegimos el camino fácil, sino el camino correcto.
 
 Puedes ver los enlaces a nuestras imágenes en la siguiente lista
 

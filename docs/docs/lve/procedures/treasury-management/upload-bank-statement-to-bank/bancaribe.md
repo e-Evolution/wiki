@@ -12,7 +12,7 @@ article: false
 **Banco del Caribe**
 ====================
 
-Para la exportación de los archivos desde ADempiere al banco del caribe, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde ADempiere al banco del caribe, [ERPyA](http://adeos.business) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con el documento [Estructura del txt de Bancaribe](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/bancaribe/Estuctura_TXT_Bancaribe.pdf), que explica algunos formatos que sirven de ayuda para la construcción el archivo a cargar.
 

@@ -12,7 +12,7 @@ Todas nuestras imágenes se encuentran etiquetadas con un tag específico para p
 
 ## Versiones Oficiales
 
-Todas las versiones oficiales de [ERPyA](https://erpya.com/) se encuentran a continuación representadas por su macro versión. Recuerde que el formato de versión es el siguiente:
+Todas las versiones oficiales de [ERPyA](https://adeos.business/) se encuentran a continuación representadas por su macro versión. Recuerde que el formato de versión es el siguiente:
 
 - **Macro versión**: Son las que cambian el primer dígito de derecha a izquierda, por lo general tienen cambios de características e incluyen nuevas funcionalidades, un ejemplo puede ser `1.x`
 - **Versión**: Son las que cambian el primer dígito de derecha a izquierda y en su mayoría tienen cambios de seguridad o corrección de errores.

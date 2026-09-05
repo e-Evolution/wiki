@@ -16,6 +16,6 @@ Para registrar los préstamos a los socios del negocio que cumplan el rol de emp
 
 Adicional a ello, la pestaña "**Línea de Selección de Pago**" debe contener el socio del negocio empleado, el cargo "**Préstamo Empleado**", el monto del préstamo y la forma de pago del mismo.
 
-El presente material elaborado por [ERPyA](http://erpya.com) pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de registrar los préstamos generados a los empleados, mediante una orden de pago en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por [ERPyA](http://adeos.business) pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de registrar los préstamos generados a los empleados, mediante una orden de pago en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 [Préstamos a Empleados](loans-to-employees)

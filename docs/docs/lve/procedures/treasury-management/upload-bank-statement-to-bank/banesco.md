@@ -9,7 +9,7 @@ tag:
 article: false
 ---
 
-Para la exportación de los archivos desde ADempiere al banco banesco, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde ADempiere al banco banesco, [ERPyA](http://adeos.business) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con los documentos [Generación del Archivo de Pago (PAYMUL) Asociado Comercial](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/banesco/Generacion_de_Archivos_de_Pagos.pdf) y [Archivos de Pagos](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/banesco/ARCHIVOS_DE_PAGOS.pdf), que explican los formatos para la construcción el archivo a cargar.
 

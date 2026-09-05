@@ -12,7 +12,7 @@ article: false
 **Banco de Venezuela**
 ======================
 
-Para la exportación de los archivos desde ADempiere al banco de venezuela, [ERPyA](http://erpya.com) soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento [Formato Archivo de Pago a Proveedores](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/venezuela/FormatoDeArchivoPagoProveedores.pdf), explica el formato que sirve de ayuda para la construcción el archivo a cargar.
+Para la exportación de los archivos desde ADempiere al banco de venezuela, [ERPyA](http://adeos.business) soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento [Formato Archivo de Pago a Proveedores](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/venezuela/FormatoDeArchivoPagoProveedores.pdf), explica el formato que sirve de ayuda para la construcción el archivo a cargar.
 
 Adicional a ello, cuenta con los documentos [Registro y Formato de Cheques](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/venezuela/Venezuela_Verificación.xlsx) y [Registro y Formato de Cheque](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/venezuela/Venezuela.xlsx).
 

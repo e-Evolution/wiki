@@ -23,7 +23,7 @@ Haga click al [NetCash](https://www.provincial.com/empresas/servicios-digitales/
 
 :::
 
-[ERPyA](http://erpya.com/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BANCO PROVINCIAL SEPTIEMBRE 2019**](/assets/img/docs/balance-management/reconciliation/SEPTIEMBRE2019PROVINCIAL.csv), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+[ERPyA](http://adeos.business/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BANCO PROVINCIAL SEPTIEMBRE 2019**](/assets/img/docs/balance-management/reconciliation/SEPTIEMBRE2019PROVINCIAL.csv), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 ---
 
@@ -35,7 +35,7 @@ Para poder hacer la descarga del extracto bancario del [**Banco de Venezuela**](
 
 :::
 
-[ERPyA](http://erpya.com/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BANCO DE VENEZUELA OCTUBRE 2019**](/assets/img/docs/balance-management/reconciliation/OCTUBRE2019Venezuela.fix.txt), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+[ERPyA](http://adeos.business/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BANCO DE VENEZUELA OCTUBRE 2019**](/assets/img/docs/balance-management/reconciliation/OCTUBRE2019Venezuela.fix.txt), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 ---
 
@@ -55,7 +55,7 @@ Para la exportación del extracto bancario en formato **qif.**, es necesario ing
 
 :::
 
-[ERPyA](http://erpya.com/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BANCO BANESCO OCTUBRE 2019**](/assets/img/docs/balance-management/reconciliation/OCTUBRE2019BANESCO.qif), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+[ERPyA](http://adeos.business/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BANCO BANESCO OCTUBRE 2019**](/assets/img/docs/balance-management/reconciliation/OCTUBRE2019BANESCO.qif), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 ---
 
@@ -69,7 +69,7 @@ Haga click en Banesco Online para poder visualizar el paso a paso para las desca
 
 Para poder hacer la descarga del extracto bancario de [**Banco Mercantil**](https://www.mercantilbanco.com/mercprod/index.html) debe iniciar sesión en el banco, una vez ingrese al banco siga las instrucciones indicadas bajo la platafoma Web en el apartado de [Empresas](https://www.mercantilbanco.com/mercprod/content/empresas/promociones/439051_ECD_emp.html) donde se describe el paso a paso de como realizar la descarga de archivos o movimientos bancarios; el estado de cuenta bancario a descargar de este banco debe ser bajo los formatos **Mt940.txt** cualquiera de esos dos formatos son válidos para que ADempiere acepte la importación del extracto bancario.
 
-[ERPyA](http://erpya.com/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BANCO MERCANTIL OCTUBRE 2019**](/assets/img/docs/balance-management/reconciliation/Octubre2019Mercantil.Mt940.txt), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+[ERPyA](http://adeos.business/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BANCO MERCANTIL OCTUBRE 2019**](/assets/img/docs/balance-management/reconciliation/Octubre2019Mercantil.Mt940.txt), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 ::: note
 
@@ -93,7 +93,7 @@ Haga click en [**Mi Estado de Cuenta Digital**](broken) para poder visualizar el
 
 Para poder hacer la descarga del extracto bancario del [**Banco Nacional de Crédito**](https://www.bncenlinea.com/) debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del [**Banco Nacional de Crédito**](https://www.bncenlinea.com/), el estado de cuenta bancario a descargar de este banco debe ser bajo el formato **.tsv**, el cual es el formato que aceptará ADempiere al momento de realizar la importación del extracto bancario.
 
-[ERPyA](http://erpya.com/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BNC 2017**](/assets/img/docs/balance-management/reconciliation/BNC_TKR.tsv), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+[ERPyA](http://adeos.business/) ofrece a nuestros clientes el ejemplo de extracto bancario [**BNC 2017**](/assets/img/docs/balance-management/reconciliation/BNC_TKR.tsv), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 ---
 
@@ -101,7 +101,7 @@ Para poder hacer la descarga del extracto bancario del [**Banco Nacional de Cré
 
 Para poder hacer la descarga del extracto bancario del [**Banplus**](https://www.banplus.com/site/p_contenido.php) debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del banco [**Banplus**](https://www.banplus.com/site/p_contenido.php), el estado de cuenta bancario a descargar de este banco debe ser bajo el formato **.txt**, el cual es el formato que aceptará ADempiere al momento de realizar la importación del extracto bancario.
 
-[ERPyA](http://erpya.com/) ofrece a nuestros clientes el ejemplo de extracto bancario [**Banplus 2017**](Banplus_Estado_de_cuenta.txt), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+[ERPyA](http://adeos.business/) ofrece a nuestros clientes el ejemplo de extracto bancario [**Banplus 2017**](Banplus_Estado_de_cuenta.txt), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 De la misma manera, los bancos que no han sido mencionados bajo este material pueden ser descargados e importados en ADempiere bajo los formatos **QIF**, **MT940** y **OFX / OFC**.
 
@@ -111,4 +111,4 @@ Ningún estado de cuenta bancario puede ser modificado o convertido manualmente 
 
 :::
 
-Para realizar la importación del extracto bancario este proceso se explica en el documento Conciliaciones Automáticas elaborado por [ERPyA](http://erpya.com/).
+Para realizar la importación del extracto bancario este proceso se explica en el documento Conciliaciones Automáticas elaborado por [ERPyA](http://adeos.business/).

@@ -25,7 +25,7 @@ Se requiere corregir el costo de algunos productos porque al momento de su impor
 
 - Reporte con dettale de costos corregidos
 - Capacitación para evitar que se genere nuevamente el error.
-- Un instructivo para futura referencia en la plataforma [ERP Docs Costos](https://docs.erpya.com/adempiere/performance-analysis/costing/cost-reports/product-cost-inquiry.html?highlight=costos)
+- Un instructivo para futura referencia en la plataforma [ERP Docs Costos](https://docs.adeos.business/adempiere/performance-analysis/costing/cost-reports/product-cost-inquiry.html?highlight=costos)
 
 ## Condiciones del Servicio
 

@@ -26,7 +26,7 @@ Se requiere que Adempiere emita a todos los clientes una carta de morosidad cuan
 
 - Proceso Existente con un caso real
 - Capacitación sobre el uso del Proceso
-- Un instructivo para futura referencia en la plataforma [ERP Docs](https://docs.erpya.com/) o en nuestro [Knowledge Base](https://stackoverflow.com/c/erpya-customers/questions)
+- Un instructivo para futura referencia en la plataforma [ERP Docs](https://docs.adeos.business/) o en nuestro [Knowledge Base](https://stackoverflow.com/c/erpya-customers/questions)
 
 ## Condiciones del Servicio
 

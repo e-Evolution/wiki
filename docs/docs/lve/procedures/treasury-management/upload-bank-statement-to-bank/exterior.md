@@ -12,7 +12,7 @@ article: false
 **Banco Exterior**
 ==================
 
-Para la exportación de los archivos desde ADempiere al banco exterior, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde ADempiere al banco exterior, [ERPyA](http://adeos.business) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con los documentos [Archivo de Pago a Proveedores](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/exterior/Asistente_Integral_Estructura_Pago_a_Proveedores.pdf) y [Archivo de Afiliación y Pago de Proveedores y Nómina](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/exterior/Pago_Nomina_y_Proveedores.pdf), que explican los formatos para la construcción del archivo a cargar.
 

@@ -12,7 +12,7 @@ article: false
 **Ejecución de la Estimación de Retenciones**
 ---------------------------------------------
 
-Realice el procedimiento regular para generar una factura de cuentas por cobrar, explicado en el documento ''Documento por cobrar'', elaborado por [ERPyA](http://erpya.com).
+Realice el procedimiento regular para generar una factura de cuentas por cobrar, explicado en el documento ''Documento por cobrar'', elaborado por [ERPyA](http://adeos.business).
 
 Luego seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Documento por Cobrar**".
 

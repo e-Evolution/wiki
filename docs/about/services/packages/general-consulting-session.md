@@ -29,7 +29,7 @@ Se requiere una reunión para aclarar dudas con respecto al proceso de conciliac
 ## Entregable
 
 - Un video con la grabación en caso de ser remoto
-- Referencias a la documentación principal de [ERPyA](https://docs.erpya.com/)
+- Referencias a la documentación principal de [ERPyA](https://docs.adeos.business/)
 
 ## Condiciones del Servicio
 

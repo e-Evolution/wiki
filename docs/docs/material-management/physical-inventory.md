@@ -9,13 +9,13 @@ En ADempiere un inventario físico permite modificar las cantidades de productos
 
 ::: warning
 
-[ERPyA](https://erpya.com/) no recomienda realizar inventario físico.
+[ERPyA](https://adeos.business/) no recomienda realizar inventario físico.
 
 :::
 
 El procedimiento de inventario físico sólo debe ser realizado en casos críticos como la inconsistencia de cantidades de productos por motivo de robo, hurto o casos similares. De igual forma, deben estar presentes los responsables y supervisores del almacén donde existe la inconsistencia, así como también debe estar presente un representante de contabilidad y un jefe o gerente de la empresa para avalar el procedimiento.
 
-El presente material elaborado por [ERPyA](https://erpya.com/), pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en ADempiere un inventario físico, en su versión 3.9.2 para la localización Venezuela.
+El presente material elaborado por [ERPyA](https://adeos.business/), pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en ADempiere un inventario físico, en su versión 3.9.2 para la localización Venezuela.
 
 - Registro de Inventario Físico
 - Consultar Detalle de Almacenamiento

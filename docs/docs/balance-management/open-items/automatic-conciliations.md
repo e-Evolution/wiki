@@ -25,7 +25,7 @@ Seleccione en el campo **Organización**, la organización para la cual se está
 
 Imagen 3. Campo Organización
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por [ERPyA](http://erpya.com/).
+Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por [ERPyA](http://adeos.business/).
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image142.png)
 

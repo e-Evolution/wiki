@@ -5,7 +5,7 @@ star: 9
 article: false
 ---
 
-[ERPyA](https://erpya.com/) maneja muchas verticales de negocio.
+[ERPyA](https://adeos.business/) maneja muchas verticales de negocio.
 
 ::: info Intro
 

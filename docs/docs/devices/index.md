@@ -11,7 +11,7 @@ tag:
 article: false
 ---
 
-[ERPyA](http://erpya.com/) se ha enfocado en mejorar los servicios e integrarse con la mayor candidad de periféricos posibles. Es por esto que tenemos una sección dedicada a la instalación, configuración y uso de herramientas para interactuar con dispositivos como impresoras, básculas y otros.
+[ERPyA](http://adeos.business/) se ha enfocado en mejorar los servicios e integrarse con la mayor candidad de periféricos posibles. Es por esto que tenemos una sección dedicada a la instalación, configuración y uso de herramientas para interactuar con dispositivos como impresoras, básculas y otros.
 
 - [Impresoras](./printers)
 

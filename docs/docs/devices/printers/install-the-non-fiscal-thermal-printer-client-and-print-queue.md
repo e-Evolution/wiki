@@ -57,7 +57,7 @@ Para el sistema operativo Windows 10:
 
 Dicho programa puedes descargarlo en el siguiente link:  
 
-https://docs.erpya.com/downloads/updates/devices/printers/rs-6.4.html
+https://docs.adeos.business/downloads/updates/devices/printers/rs-6.4.html
 
 Para conocer qué versión de sistema operativo de Windows tiene instalado la PC Instalada presionamos:
 
@@ -74,7 +74,7 @@ En caso de cumplir lo anteriormente descrito y una vez conectada la Impresora al
 Una vez que cumplas los requerimientos descrito anteriormente procedemos al registro de la impresora por ADempiere y la instalación del programa de LocalPrinting.
 
 **Para realizar el Registro de la Impresora no Fiscal a la Cola de Impresión en ADempiere puedes visitar el siguiente Link:**
-https://docs.erpya.com/docs/devices/printers/how-to-register-a-non-Fiscal-printer-to-the-print-queue-in-adempiere.md
+https://docs.adeos.business/docs/devices/printers/how-to-register-a-non-Fiscal-printer-to-the-print-queue-in-adempiere.md
 
 **Luego del registro de la impresora por ADempiere Ejecutamos Local-Printing-All-In-One-DotNet-x64-rs-6.4.exe con privilegios de Administrador:**
 

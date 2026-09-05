@@ -7,11 +7,11 @@ article: false
 
 La mayoría de las empresas adquirieron diferentes softwares para cubrir las diferentes necesidades de sus organizaciones, pero luego se dan cuenta de lo complicado que es compartir y unificar la información que cada módulo y organización obtiene.
 
-ADempiere, debido a su estado ERP, ofrece todo lo que una empresa necesita en un solo software, [ADempiere ERP](http://erpya.com/) quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios con alta y baja experiencia en el manejo de Software ERP, en los que cada proceso de este potente sistema será explicado de manera eficiente y detallada, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que permitan un control óptimo de sus operaciones.
+ADempiere, debido a su estado ERP, ofrece todo lo que una empresa necesita en un solo software, [ADempiere ERP](http://adeos.business/) quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios con alta y baja experiencia en el manejo de Software ERP, en los que cada proceso de este potente sistema será explicado de manera eficiente y detallada, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que permitan un control óptimo de sus operaciones.
 
 ::: info Nota
 
-Tenga en cuenta que todo el ecosistema [ADempiere ERP](https://erpya.com/) se creó para ser utilizado en cualquier organización con cambios mínimos. Esta documentación fue creada para uso final, tecnología e implementación.
+Tenga en cuenta que todo el ecosistema [ADempiere ERP](https://adeos.business/) se creó para ser utilizado en cualquier organización con cambios mínimos. Esta documentación fue creada para uso final, tecnología e implementación.
 
 :::
 

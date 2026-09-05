@@ -23,5 +23,5 @@ projects:
     desc: Estamos en Discord!
     link: https://discord.gg/UWcyn7DEzV
     icon: /assets/img/discord-logo.png
-footer: '<a href="https://erpya.com" rel="noopener noreferrer" target="_blank">ERP Consultores y Asociados, C.A.</a> | <a href="/about">Nosotros</a>'
+footer: '<a href="https://adeos.business" rel="noopener noreferrer" target="_blank">ERP Consultores y Asociados, C.A.</a> | <a href="/about">Nosotros</a>'
 ---

@@ -118,6 +118,6 @@ article: false
 
 Para reportar incidentes de seguridad o consultas relacionadas con la seguridad de la aplicación ERP+:
 
-**Email**: info@erpya.com
+**Email**: info@adeos.business
 **Teléfono**: +58 414-5697183
 **Horario**: Lunes a Viernes 08:00 - 17:00 (GMT-4) 

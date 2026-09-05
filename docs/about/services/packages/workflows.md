@@ -40,7 +40,7 @@ El ejemplo muestra tres niveles de aprobación y dos nodos (Aprobación y Envío
 - Un flujo de trabajo con los nodos solicitados
 - Los niveles de aprobación solicitados
 - Capacitación sobre el uso y aprobación del flujo de trabajo
-- Un instructivo para futura referencia en la plataforma [ERP Docs](https://docs.erpya.com/) o en nuestro [Knowledge Base](https://stackoverflow.com/c/erpya-customers/questions)
+- Un instructivo para futura referencia en la plataforma [ERP Docs](https://docs.adeos.business/) o en nuestro [Knowledge Base](https://stackoverflow.com/c/erpya-customers/questions)
 
 ## Condiciones del Servicio
 

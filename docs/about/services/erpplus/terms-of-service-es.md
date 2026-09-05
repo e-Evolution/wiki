@@ -175,6 +175,6 @@ Cualquier disputa será resuelta en los tribunales de Araure, Estado Portuguesa,
 
 Para consultas sobre estos Términos de Servicio:
 
-**Email**: info@erpya.com
+**Email**: info@adeos.business
 **Teléfono**: +58-2556659451  
 **Dirección**: Av. Municipalidad con Troncal 5 CC Buenaventura, Centro Empresarial Oficina M6, Araure, Estado Portuguesa, Venezuela 

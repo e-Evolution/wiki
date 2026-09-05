@@ -5,7 +5,7 @@ star: 9
 article: false
 ---
 
-Documentación validada por [**ERPCyA**](https://erpya.com/) para incrementar tamaños de caracteres por línea en la PF-300A
+Documentación validada por [**ERPCyA**](https://adeos.business/) para incrementar tamaños de caracteres por línea en la PF-300A
 
 ![Descripción](/assets/img/docs/fiscal-printer/pf-300a.png)
 

@@ -12,7 +12,7 @@ article: false
 **Banco Banplus**
 =================
 
-Para la exportación de los archivos desde ADempiere al banco banplus, [ERPyA](http://erpya.com) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
+Para la exportación de los archivos desde ADempiere al banco banplus, [ERPyA](http://adeos.business) soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
 El banco cuenta con los documentos [Banplus On line](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/banplus/Banplus_On_line.pdf), [Archivos de Pagos](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/banplus/PANTALLAS_SERVICIO_NOMINA_PLUS.ppt) y [Archivos de Pagos](PANTALLAS_SERVICIO_NOMINA_PLUS.ppt) que explican los formatos para la construcción el archivo a cargar.
 

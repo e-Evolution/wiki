@@ -71,7 +71,7 @@ La información recopilada se utiliza para:
 - Eliminación: Puede solicitar la eliminación de su cuenta y datos personales, salvo obligación legal de conservación.
 - Oposición y limitación: Puede oponerse o limitar el tratamiento de sus datos en ciertos casos.
 
-Para ejercer estos derechos, contacte a: **info@erpya.com**
+Para ejercer estos derechos, contacte a: **info@adeos.business**
 
 ---
 
@@ -92,6 +92,6 @@ ERPCYA se reserva el derecho de modificar esta política en cualquier momento. L
 
 Para consultas sobre esta Política de Privacidad o el tratamiento de sus datos personales:
 
-**Email:** info@erpya.com  
+**Email:** info@adeos.business  
 **Teléfono:** +58-2556659451  
 **Dirección:** Av. Municipalidad con Troncal 5 CC Buenaventura, Centro Empresarial Oficina M6, Araure, Estado Portuguesa, Venezuela 

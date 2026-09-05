@@ -12,7 +12,7 @@ article: false
 **Banco Nacional de Crédito**
 =============================
 
-Para la exportación de los archivos desde ADempiere al banco nacional de crédito, [ERPyA](http://erpya.com) soporta el siguiente formato facilitado por el banco, que puede ser descargado para su análisis y adaptación.
+Para la exportación de los archivos desde ADempiere al banco nacional de crédito, [ERPyA](http://adeos.business) soporta el siguiente formato facilitado por el banco, que puede ser descargado para su análisis y adaptación.
 El banco cuenta con los documentos [Estructura TxT BNC](/assets/img/docs/lve/procedures/treasury-management/resources/upload-bank-statement-to-bank/bnc/BNC_Estructura_TXT_RegPagos_2014.pdf)
 
 **Archivo para Pagos de Proveedores**

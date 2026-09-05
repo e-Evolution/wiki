@@ -96,7 +96,7 @@ La opción para configurar impresora puede ser ignorada si ya se encuentra insta
 
 ---
 
-Configure los datos necesarios para que la impresora pueda ser administrada desde las aplicaciones de [E.R.P. Consultores y Asociados, C.A.](http://erpya.com). Si tiene alguna duda con respecto a este punto puede solicitar los datos a nuestro servicio de atención al cliente.
+Configure los datos necesarios para que la impresora pueda ser administrada desde las aplicaciones de [E.R.P. Consultores y Asociados, C.A.](http://adeos.business). Si tiene alguna duda con respecto a este punto puede solicitar los datos a nuestro servicio de atención al cliente.
 
 - **Servidor**: Coloque aquí la dirección del servidor de colas de impresión donde se conectará su dispositivo, tome en cuenta que la dirección puede variar si su instalación es cloud o es On Premise
 - **Puerto**: Defina el puerto de conexión para el servicio de colas de impresión

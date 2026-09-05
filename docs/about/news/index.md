@@ -8,4 +8,4 @@ tag:
 article: false
 ---
 
-Noticias de todo lo nuevo de [ERPyA](https://erpya.com/).
+Noticias de todo lo nuevo de [ERPyA](https://adeos.business/).

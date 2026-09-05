@@ -71,7 +71,7 @@ The collected information is used to:
 - Deletion: You may request deletion of your account and personal data, except where retention is required by law.
 - Objection and restriction: You may object to or restrict the processing of your data in certain cases.
 
-To exercise these rights, contact: **info@erpya.com**
+To exercise these rights, contact: **info@adeos.business**
 
 ---
 
@@ -92,6 +92,6 @@ ERPCYA reserves the right to modify this policy at any time. Changes will be not
 
 For questions about this Privacy Policy or the processing of your personal data:
 
-**Email:** info@erpya.com  
+**Email:** info@adeos.business  
 **Phone:** +58-2556659451  
 **Address:** Av. Municipalidad con Troncal 5 CC Buenaventura, Centro Empresarial Oficina M6, Araure, Estado Portuguesa, Venezuela 

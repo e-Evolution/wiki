@@ -25,6 +25,6 @@ Toma tu tiempo y verifica las versiones que tenemos para ti.
 
 ## Liberaciones de Github
 
-Todas las versiones de [ADempiere ERP](https://erpya.com) se encuentran [aquí](https://github.com/erpya/zk-ui/releases)
+Todas las versiones de [ADempiere ERP](https://adeos.business) se encuentran [aquí](https://github.com/erpya/zk-ui/releases)
 
 <Releases/>

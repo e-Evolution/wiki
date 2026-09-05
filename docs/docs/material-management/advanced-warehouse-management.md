@@ -242,7 +242,7 @@ Cuando se tengan listas las configuraciones necesarias, se puede proceder a real
 
 ### **Orden de Distribución**
 
-Se debe crear una orden de distribución, donde se especifique el producto, la ubicación donde se encuentra actualmente el producto (desde la cual se va mover) y la ubicación a la cual será movilizado el producto. Si desconoce el procedimiento para la elaboración de la misma, puede consultar el documento [Orden de Distribución](https://docs.erpya.com/docs/distribution-management/distribution-order.html). 
+Se debe crear una orden de distribución, donde se especifique el producto, la ubicación donde se encuentra actualmente el producto (desde la cual se va mover) y la ubicación a la cual será movilizado el producto. Si desconoce el procedimiento para la elaboración de la misma, puede consultar el documento [Orden de Distribución](https://docs.adeos.business/docs/distribution-management/distribution-order.html). 
 
 Al completar el registro, se aplica la funcionalidad en base a la configuración realizada en la ventana **Estructura del Almacén**, ejecutando lo siguiente:
 
@@ -292,7 +292,7 @@ El procedimiento a realizar, que garantiza el correcto funcionamiento de las sal
 
 ### **Generar Orden de Venta o Pedido**
 
-Se debe crear una orden de venta al cliente de manera regular, si desconoce el procedimiento para la elaboración de la misma, puede consultar el documento [Orden de Venta](https://docs.erpya.com/docs/sales-management/order.html).
+Se debe crear una orden de venta al cliente de manera regular, si desconoce el procedimiento para la elaboración de la misma, puede consultar el documento [Orden de Venta](https://docs.adeos.business/docs/sales-management/order.html).
 
 Para la presentación del caso, se elaboró la orden de venta **OVN-20906**
 
@@ -310,7 +310,7 @@ Se debe crear la orden de salida desde la orden de venta, este documento se pued
 
 1. De manera automática: Esto sucede cuando la orden de venta es configurada para que al momento de completar la misma, se genere una orden de salida (copia fiel exacta de la orden de venta). Al mismo tiempo, se asocia el registro de la orden de salida en la orden de venta que se completa.
 
-2. Por medio del smart browser: [Generar Orden de Salida (Orden de Venta / Distribución)](https://docs.erpya.com/docs/distribution-management/outbound-order.html).
+2. Por medio del smart browser: [Generar Orden de Salida (Orden de Venta / Distribución)](https://docs.adeos.business/docs/distribution-management/outbound-order.html).
 
 Una vez ejecutado el proceso y generado el documento, el registro de la orden de salida puede ser ubicado en la ventana **Orden de Salida**. 
 
@@ -384,11 +384,11 @@ Luego de tener en ADempiere la **Lista de Selección para Entrega (Picking List)
 
 Estos documentos se pueden realizar ejecutando los siguientes procesos:
 
-1. [Generar Entrega / Factura desde Orden de Salida](https://docs.erpya.com/docs/distribution-management/generate-invoice-and-delivery-from-outgoing-order.html)
+1. [Generar Entrega / Factura desde Orden de Salida](https://docs.adeos.business/docs/distribution-management/generate-invoice-and-delivery-from-outgoing-order.html)
 
-2. [Generar Entregas desde Orden de Salida](https://docs.erpya.com/docs/sales-management/delivery.html#generar-entregas-desde-orden-de-salida).
+2. [Generar Entregas desde Orden de Salida](https://docs.adeos.business/docs/sales-management/delivery.html#generar-entregas-desde-orden-de-salida).
 
-3. [Generar Factura desde Orden de Salida](https://docs.erpya.com/docs/sales-management/bill.html).
+3. [Generar Factura desde Orden de Salida](https://docs.adeos.business/docs/sales-management/bill.html).
 
 Para la presentación del caso, fue generada la entrega **EN-21290**.
 

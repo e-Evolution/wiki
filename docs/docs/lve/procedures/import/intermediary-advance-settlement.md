@@ -128,7 +128,7 @@ Seleccione en el campo "**Cuenta Bancaria**" la cuenta caja correspondiente al d
 
 Imagen 14. Campo Cuenta Bancaria
 
-Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por [ERPyA](https://erpya.com). Para ejemplificar el registro es utilizada la opción "**Pago Nacional**".
+Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por [ERPyA](https://adeos.business). Para ejemplificar el registro es utilizada la opción "**Pago Nacional**".
 
 ![Campo Tipo de Documento 1](/assets/img/docs/lve/procedures/import/resources/tipodoc3.png)
 

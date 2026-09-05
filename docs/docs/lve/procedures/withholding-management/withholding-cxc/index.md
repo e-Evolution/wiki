@@ -18,6 +18,6 @@ ADempiere permite auto-generar por medio del proceso "**Generar Retenciones**" e
 
 El procedimiento para aplicar retenciones a las facturas de cuentas por cobrar consiste en generar la misma desde el proceso "**Generar Retenciones**".
 
-El presente material elaborado por [ERPyA](http://erpya.com) pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener un resultado exitoso al momento de procesar las retenciones y posteriormente generar el documento de retención de cuentas por cobrar en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por [ERPyA](http://adeos.business) pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener un resultado exitoso al momento de procesar las retenciones y posteriormente generar el documento de retención de cuentas por cobrar en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 - [Ejecución de la Estimación de Retenciones](withholding-cxc)

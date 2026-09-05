@@ -37,5 +37,5 @@ Y y reportes de ley. Todo esto con el valioso apoyo de un gran ERP.
 
 ## Productos relacionados
 
-- [Nómina](https://docs.erpya.com/docs/lve/procedures/payroll/)
+- [Nómina](https://docs.adeos.business/docs/lve/procedures/payroll/)
 - [Contabilidad](../products/performance-analysis.md)

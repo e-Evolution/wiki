@@ -68,7 +68,7 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 
 ![image](https://github.com/erpcya/docs/assets/9578152/e3676964-a07c-4dc9-843b-a0627013b290)
 
-1. Cree una [orden de Venta](https://docs.erpya.com/docs/sales-management/order.html) de manera habitual. 
+1. Cree una [orden de Venta](https://docs.adeos.business/docs/sales-management/order.html) de manera habitual. 
 2. Vaya a la sección gestión Avanzada de Almacén
 3. Luego seleccione la opción Operación de Salida   
 4. Luego seleccione la opción Generar Orden de Salida desde orden de Venta/Distribución   
@@ -93,7 +93,7 @@ En este punto de manera automática, se genera la orden de distribución y movim
 
 ![image](https://github.com/erpcya/docs/assets/9578152/45d9943b-6e1e-4ab5-813e-453b53f48482)
 
-1. Cree una [orden de Venta](https://docs.erpya.com/docs/sales-management/order.html) de manera habitual.
+1. Cree una [orden de Venta](https://docs.adeos.business/docs/sales-management/order.html) de manera habitual.
 
 ::: info Nota
 
